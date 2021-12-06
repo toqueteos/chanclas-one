@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "gobber2:gobber2_globette" },
+    { "item": "minecraft:wheat_seeds" }
+  ],
+  "result": {
+    "count": 1,
+    "item": "gobber2:gobber2_seed"
+  }
+}

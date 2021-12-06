@@ -1,0 +1,2291 @@
+{
+	id: "0000000000000371"
+	group: ""
+	order_index: 19
+	filename: "botania"
+	title: "Botania"
+	icon: "botania:natura_pylon"
+	subtitle: ["It's a tech/magic mod or a magic/tech mod ?"]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 12.5d
+			y: -9.0d
+			dependencies: ["00000000000003F7"]
+			id: "0000000000000372"
+			tasks: [{
+				id: "0000000000000373"
+				type: "item"
+				item: "botania:rune_earth"
+			}]
+			rewards: [{
+				id: "2C87A7A1FFD9D6AC"
+				type: "item"
+				item: "minecraft:coal_block"
+				count: 4
+			}]
+		}
+		{
+			x: 12.5d
+			y: -7.0d
+			dependencies: ["00000000000003F7"]
+			id: "0000000000000374"
+			tasks: [{
+				id: "0000000000000375"
+				type: "item"
+				item: "botania:rune_air"
+			}]
+			rewards: [{
+				id: "0414DAC9C27D4E34"
+				type: "item"
+				item: "minecraft:feather"
+				count: 16
+			}]
+		}
+		{
+			x: 13.5d
+			y: -9.0d
+			dependencies: ["00000000000003F7"]
+			id: "0000000000000376"
+			tasks: [{
+				id: "0000000000000377"
+				type: "item"
+				item: "botania:rune_spring"
+			}]
+			rewards: [{
+				id: "54FC3B0B6A165E5E"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 16
+			}]
+		}
+		{
+			x: 12.0d
+			y: -6.0d
+			dependencies: ["00000000000003F7"]
+			id: "0000000000000378"
+			tasks: [{
+				id: "0000000000000379"
+				type: "item"
+				item: "botania:rune_summer"
+			}]
+			rewards: [{
+				id: "29CC779C936F2052"
+				type: "item"
+				item: "minecraft:melon"
+				count: 2
+			}]
+		}
+		{
+			x: 13.5d
+			y: -5.0d
+			dependencies: ["00000000000003F7"]
+			id: "000000000000037A"
+			tasks: [{
+				id: "000000000000037B"
+				type: "item"
+				item: "botania:rune_autumn"
+			}]
+			rewards: [{
+				id: "13463754E9FFCABE"
+				type: "item"
+				item: "minecraft:spider_eye"
+				count: 3
+			}]
+		}
+		{
+			x: 14.5d
+			y: -9.0d
+			dependencies: ["00000000000003F7"]
+			id: "000000000000037C"
+			tasks: [{
+				id: "000000000000037D"
+				type: "item"
+				item: "botania:rune_winter"
+			}]
+			rewards: [{
+				id: "2BF76BA603C75D2F"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 16
+			}]
+		}
+		{
+			x: 15.0d
+			y: -8.0d
+			dependencies: ["00000000000003F7"]
+			id: "000000000000037E"
+			tasks: [{
+				id: "000000000000037F"
+				type: "item"
+				item: "botania:rune_mana"
+			}]
+			rewards: [{
+				id: "6DC0C360367B56D4"
+				type: "item"
+				item: "botania:mana_pearl"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -8.0d
+			dependencies: ["00000000000003F7"]
+			id: "0000000000000380"
+			tasks: [{
+				id: "0000000000000381"
+				type: "item"
+				item: "botania:rune_lust"
+			}]
+			rewards: [{
+				id: "74368F2ED1C0070E"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
+		}
+		{
+			x: 16.0d
+			y: -6.0d
+			dependencies: ["00000000000003F7"]
+			id: "0000000000000382"
+			tasks: [{
+				id: "0000000000000383"
+				type: "item"
+				item: "botania:rune_gluttony"
+			}]
+			rewards: [{
+				id: "0282A95DDE9B3F1B"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
+		}
+		{
+			x: 15.5d
+			y: -7.0d
+			dependencies: ["00000000000003F7"]
+			id: "0000000000000384"
+			tasks: [{
+				id: "0000000000000385"
+				type: "item"
+				item: "botania:rune_greed"
+			}]
+			rewards: [{
+				id: "4BC1A0DAB2D58CA2"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
+		}
+		{
+			x: 15.0d
+			y: -10.0d
+			dependencies: ["00000000000003F7"]
+			id: "0000000000000386"
+			tasks: [{
+				id: "0000000000000387"
+				type: "item"
+				item: "botania:rune_sloth"
+			}]
+			rewards: [{
+				id: "0A1CA1A858A4BC23"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
+		}
+		{
+			x: 13.0d
+			y: -6.0d
+			dependencies: ["00000000000003F7"]
+			id: "0000000000000388"
+			tasks: [{
+				id: "0000000000000389"
+				type: "item"
+				item: "botania:rune_wrath"
+			}]
+			rewards: [{
+				id: "23EDB2C4543106BF"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
+		}
+		{
+			x: 14.5d
+			y: -5.0d
+			dependencies: ["00000000000003F7"]
+			id: "000000000000038A"
+			tasks: [{
+				id: "000000000000038B"
+				type: "item"
+				item: "botania:rune_envy"
+			}]
+			rewards: [{
+				id: "25DA912205D29D8A"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
+		}
+		{
+			x: 15.0d
+			y: -6.0d
+			dependencies: ["00000000000003F7"]
+			id: "000000000000038C"
+			tasks: [{
+				id: "000000000000038D"
+				type: "item"
+				item: "botania:rune_pride"
+			}]
+			rewards: [{
+				id: "767A6DA88EAF60A5"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
+		}
+		{
+			x: 16.0d
+			y: -10.0d
+			dependencies: ["00000000000003F7"]
+			id: "000000000000038E"
+			tasks: [{
+				id: "000000000000038F"
+				type: "item"
+				item: "mythicbotany:asgard_rune"
+			}]
+			rewards: [{
+				id: "7E0AB85B6CD7ECB3"
+				type: "item"
+				item: "botania:rune_autumn"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -10.0d
+			dependencies: ["00000000000003F7"]
+			id: "0000000000000390"
+			tasks: [{
+				id: "0000000000000391"
+				type: "item"
+				item: "mythicbotany:vanaheim_rune"
+			}]
+			rewards: [{
+				id: "2FA9808264E50595"
+				type: "item"
+				item: "botania:rune_spring"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -10.0d
+			dependencies: ["00000000000003F7"]
+			id: "0000000000000392"
+			tasks: [{
+				id: "0000000000000393"
+				type: "item"
+				item: "mythicbotany:alfheim_rune"
+			}]
+			rewards: [{
+				id: "602F5C37320BE1A2"
+				type: "item"
+				item: "botania:rune_summer"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -9.0d
+			dependencies: ["00000000000003F7"]
+			id: "0000000000000394"
+			tasks: [{
+				id: "0000000000000395"
+				type: "item"
+				item: "mythicbotany:midgard_rune"
+			}]
+			rewards: [{
+				id: "2009D8836B06C559"
+				type: "item"
+				item: "botania:rune_spring"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -4.0d
+			dependencies: ["00000000000003F7"]
+			id: "0000000000000396"
+			tasks: [{
+				id: "0000000000000397"
+				type: "item"
+				item: "mythicbotany:joetunheim_rune"
+			}]
+			rewards: [{
+				id: "66DAA6473BCD961A"
+				type: "item"
+				item: "botania:rune_autumn"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -5.0d
+			dependencies: ["00000000000003F7"]
+			id: "0000000000000398"
+			tasks: [{
+				id: "0000000000000399"
+				type: "item"
+				item: "mythicbotany:muspelheim_rune"
+			}]
+			rewards: [{
+				id: "2174A2CB8311CCF0"
+				type: "item"
+				item: "botania:rune_summer"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -5.0d
+			dependencies: ["00000000000003F7"]
+			id: "000000000000039A"
+			tasks: [{
+				id: "000000000000039B"
+				type: "item"
+				item: "mythicbotany:niflheim_rune"
+			}]
+			rewards: [{
+				id: "2A666212FBF259EA"
+				type: "item"
+				item: "botania:rune_winter"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -7.0d
+			dependencies: ["00000000000003F7"]
+			id: "000000000000039C"
+			tasks: [{
+				id: "000000000000039D"
+				type: "item"
+				item: "mythicbotany:nidavellir_rune"
+			}]
+			rewards: [{
+				id: "38840CAB95231B03"
+				type: "item"
+				item: "botania:rune_winter"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -8.0d
+			dependencies: ["00000000000003F7"]
+			id: "000000000000039E"
+			tasks: [{
+				id: "000000000000039F"
+				type: "item"
+				item: "mythicbotany:helheim_rune"
+			}]
+			rewards: [{
+				id: "43224D2C1869529E"
+				type: "item"
+				item: "botania:rune_autumn"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -7.0d
+			dependencies: ["00000000000003F7"]
+			id: "00000000000003A0"
+			tasks: [{
+				id: "00000000000003A1"
+				type: "item"
+				item: "botania:rune_water"
+			}]
+			rewards: [{
+				id: "7B27357042572347"
+				type: "item"
+				item: "thermal:sugar_cane_block"
+				count: 16
+			}]
+		}
+		{
+			x: 13.0d
+			y: -8.0d
+			dependencies: ["00000000000003F7"]
+			id: "00000000000003A2"
+			tasks: [{
+				id: "00000000000003A3"
+				type: "item"
+				item: "botania:rune_fire"
+			}]
+			rewards: [{
+				id: "0808AED2E85F97A3"
+				type: "item"
+				item: "minecraft:nether_wart"
+				count: 16
+			}]
+		}
+		{
+			title: "Spark Augment"
+			x: 3.5d
+			y: -3.0d
+			dependencies: ["00000000000003EF"]
+			id: "00000000000003A4"
+			tasks: [
+				{
+					id: "00000000000003A5"
+					type: "item"
+					item: "botania:spark_upgrade_isolated"
+				}
+				{
+					id: "00000000000003A6"
+					type: "item"
+					item: "botania:spark_upgrade_recessive"
+				}
+				{
+					id: "00000000000003A7"
+					type: "item"
+					item: "botania:spark_upgrade_dominant"
+				}
+				{
+					id: "00000000000003A8"
+					type: "item"
+					item: "botania:spark_upgrade_dispersive"
+				}
+			]
+			rewards: [{
+				id: "3B32038783EC36DF"
+				type: "item"
+				item: "botania:pixie_dust"
+				count: 8
+			}]
+		}
+		{
+			title: "Gaia Boss Battle"
+			icon: "botania:gaia_pylon"
+			x: 10.5d
+			y: -1.0d
+			dependencies: ["7E165C3D21F39879"]
+			id: "00000000000003A9"
+			tasks: [
+				{
+					id: "00000000000003AA"
+					type: "item"
+					item: "botania:gaia_pylon"
+					count: 4L
+				}
+				{
+					id: "3961DECF99B9DDFA"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+				{
+					id: "0AA0E77B5C57A056"
+					type: "item"
+					item: "minecraft:iron_block"
+					count: 9L
+				}
+			]
+			rewards: [{
+				id: "60515429D9975E18"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "goblintraders:powerful_strength"
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			title: "Alfheim Portal"
+			icon: "botania:natura_pylon"
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["00000000000003EB"]
+			size: 2.0d
+			id: "00000000000003AB"
+			tasks: [
+				{
+					id: "00000000000003AC"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+				{
+					id: "38BA82E297C1B533"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "507E860BFFE00F9F"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "08B9364BBD14F9FF"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "30AA7F0C14687CF0"
+				type: "item"
+				item: "botania:starfield"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.0d
+			dependencies: ["00000000000003CF"]
+			id: "00000000000003AD"
+			tasks: [{
+				id: "00000000000003AE"
+				type: "item"
+				item: "botania:mana_pylon"
+			}]
+			rewards: [{
+				id: "2006A066BF0FBEE2"
+				type: "item"
+				item: "botania:mana_diamond"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["00000000000003AB"]
+			id: "00000000000003AF"
+			tasks: [{
+				id: "00000000000003B0"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -8.5d
+			dependencies: ["4E8017A427B96DC5"]
+			id: "00000000000003B1"
+			tasks: [{
+				id: "00000000000003B2"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1048817CA847D176"
+				type: "item"
+				item: "botania:livingwood"
+				count: 4
+			}]
+		}
+		{
+			x: 1.0d
+			y: -11.0d
+			dependencies: ["000000000000036D"]
+			size: 2.0d
+			id: "00000000000003B3"
+			tasks: [{
+				id: "00000000000003B4"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+			rewards: [{
+				id: "14A0D9EE780635AC"
+				type: "item"
+				item: "botania:fertilizer"
+				count: 4
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.0d
+			dependencies: ["00000000000003B3"]
+			size: 2.0d
+			id: "00000000000003B5"
+			tasks: [{
+				id: "00000000000003B6"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [{
+				id: "609058DB2E1BD713"
+				type: "item"
+				item: "botania:flower_bag"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			dependencies: ["00000000000003E9"]
+			id: "00000000000003B7"
+			tasks: [{
+				id: "00000000000003B8"
+				type: "item"
+				item: "botania:gaia_spreader"
+			}]
+			rewards: [{
+				id: "0304AC4B7F0651F1"
+				type: "item"
+				item: "botania:gaia_spreader"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			dependencies: ["00000000000003AB"]
+			id: "00000000000003B9"
+			tasks: [{
+				id: "00000000000003BA"
+				type: "item"
+				item: "botania:rainbow_rod"
+			}]
+			rewards: [{
+				id: "1B5C113217954080"
+				type: "item"
+				item: "botania:bifrost_perm"
+				count: 12
+			}]
+		}
+		{
+			x: 5.5d
+			y: -9.5d
+			dependencies: ["4E8017A427B96DC5"]
+			id: "00000000000003BB"
+			tasks: [{
+				id: "00000000000003BC"
+				type: "item"
+				item: "botania:water_rod"
+			}]
+			rewards: [{
+				id: "301DDFDB19211602"
+				type: "item"
+				item: "minecraft:heart_of_the_sea"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -8.5d
+			dependencies: ["4E8017A427B96DC5"]
+			id: "00000000000003BD"
+			tasks: [{
+				id: "00000000000003BE"
+				type: "item"
+				item: {
+					id: "botania:exchange_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2D38CE387557E66C"
+				type: "item"
+				item: "thermal:earth_tnt"
+				count: 4
+			}]
+		}
+		{
+			x: 8.5d
+			y: -5.0d
+			dependencies: ["00000000000003D3"]
+			id: "00000000000003BF"
+			tasks: [{
+				id: "00000000000003C0"
+				type: "item"
+				item: {
+					id: "aiotbotania:manasteel_aiot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "489C9D97506BE9B7"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			dependencies: ["00000000000003F1"]
+			id: "00000000000003C1"
+			tasks: [{
+				id: "00000000000003C2"
+				type: "item"
+				item: {
+					id: "aiotbotania:elementium_aiot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "11E1D8A69D0FF118"
+				type: "item"
+				item: "botania:elementium_ingot"
+				count: 6
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["00000000000003EB"]
+			id: "00000000000003C3"
+			tasks: [{
+				id: "00000000000003C4"
+				type: "item"
+				item: {
+					id: "aiotbotania:terra_aiot"
+					Count: 1b
+					tag: {
+						mana: 9999
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1CE35F720241ECA1"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				count: 3
+			}]
+		}
+		{
+			x: 13.0d
+			y: 1.0d
+			dependencies: ["00000000000003DF"]
+			id: "00000000000003C5"
+			tasks: [{
+				id: "00000000000003C6"
+				type: "item"
+				item: {
+					id: "aiotbotania:alfsteel_aiot"
+					Count: 1b
+					tag: {
+						mana: 9999
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A40EA4861EDFFA2"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -7.5d
+			dependencies: ["4E8017A427B96DC5"]
+			id: "00000000000003C7"
+			tasks: [{
+				id: "00000000000003C8"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "595B476B529176BF"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			dependencies: ["00000000000003F9"]
+			id: "00000000000003CB"
+			tasks: [{
+				id: "00000000000003CC"
+				type: "item"
+				item: "botania:quartz_mana"
+			}]
+			rewards: [{
+				id: "41345E9BFBF7C395"
+				type: "item"
+				item: "botania:quartz_mana"
+				count: 4
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.5d
+			dependencies: ["00000000000003F9"]
+			id: "00000000000003CD"
+			tasks: [{
+				id: "00000000000003CE"
+				type: "item"
+				item: "botania:mana_powder"
+			}]
+			rewards: [{
+				id: "6BF6042FD09DCFD4"
+				type: "item"
+				item: "botania:mana_powder"
+				count: 8
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			dependencies: ["00000000000003F9"]
+			id: "00000000000003CF"
+			tasks: [{
+				id: "00000000000003D0"
+				type: "item"
+				item: "botania:mana_diamond"
+			}]
+			rewards: [{
+				id: "7B2E9D11C3CEB0CF"
+				type: "item"
+				item: "botania:mana_diamond"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -6.0d
+			dependencies: ["00000000000003F9"]
+			id: "00000000000003D1"
+			tasks: [{
+				id: "00000000000003D2"
+				type: "item"
+				item: "botania:mana_pearl"
+			}]
+			rewards: [{
+				id: "6A805D664ADB1AF3"
+				type: "item"
+				item: "botania:mana_pearl"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -6.0d
+			dependencies: ["00000000000003F9"]
+			id: "00000000000003D3"
+			tasks: [{
+				id: "00000000000003D4"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+			rewards: [{
+				id: "6A226391443603C9"
+				type: "item"
+				item: "mekanism:ingot_steel"
+				count: 16
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.0d
+			dependencies: ["00000000000003D1"]
+			id: "00000000000003D5"
+			tasks: [{
+				id: "00000000000003D6"
+				type: "item"
+				item: {
+					id: "botania:crafting_halo"
+					Count: 1b
+					tag: {
+						rotationBase: 630.4825f
+					}
+				}
+			}]
+			rewards: [{
+				id: "56907D9F9EFBAD52"
+				type: "item"
+				item: "botania:mana_pearl"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			dependencies: ["00000000000003E5"]
+			id: "00000000000003D7"
+			tasks: [{
+				id: "00000000000003D8"
+				type: "item"
+				item: "botania:blacker_lotus"
+			}]
+			rewards: [{
+				id: "0E3A618BE58CF8D2"
+				type: "item"
+				item: "botania:black_lotus"
+				count: 4
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			dependencies: ["00000000000003F9"]
+			id: "00000000000003D9"
+			tasks: [{
+				id: "00000000000003DA"
+				type: "item"
+				item: "botania:mana_string"
+			}]
+			rewards: [{
+				id: "1EFE84F0AD8AFA8A"
+				type: "item"
+				item: "botania:mana_string"
+				count: 3
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["00000000000003AB"]
+			id: "00000000000003DB"
+			tasks: [{
+				id: "00000000000003DC"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+			rewards: [{
+				id: "67FAD6678232C056"
+				type: "item"
+				item: "botania:elven_spreader"
+				count: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			dependencies: ["00000000000003E9"]
+			size: 2.0d
+			id: "00000000000003DD"
+			tasks: [{
+				id: "00000000000003DE"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+			rewards: [{
+				id: "36ACE24E75575740"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.5d
+			dependencies: ["0000000000000418"]
+			id: "00000000000003DF"
+			tasks: [{
+				id: "00000000000003E0"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+			}]
+			rewards: [{
+				id: "6BFB76E07F4A5E7B"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.5d
+			dependencies: ["00000000000003DF"]
+			id: "00000000000003E1"
+			tasks: [{
+				id: "00000000000003E2"
+				type: "item"
+				item: "mythicbotany:alfsteel_armor_upgrade"
+			}]
+			rewards: [{
+				id: "2F4AB2DEE318A357"
+				type: "item"
+				item: "botania:mana_powder"
+				count: 32
+			}]
+		}
+		{
+			x: 8.5d
+			y: -9.5d
+			dependencies: ["4E8017A427B96DC5"]
+			id: "00000000000003E3"
+			tasks: [{
+				id: "00000000000003E4"
+				type: "item"
+				item: {
+					id: "botania:mana_mirror"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "654C9B976EA936BA"
+				type: "item"
+				item: "botania:mana_diamond"
+				count: 4
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.0d
+			dependencies: ["000000000000036D"]
+			id: "00000000000003E5"
+			tasks: [{
+				id: "00000000000003E6"
+				type: "item"
+				item: "botania:black_lotus"
+			}]
+			rewards: [{
+				id: "4E21189582BEAA27"
+				type: "item"
+				item: "botania:black_lotus"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -8.5d
+			dependencies: ["4E8017A427B96DC5"]
+			id: "00000000000003E7"
+			tasks: [{
+				id: "00000000000003E8"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+			rewards: [{
+				id: "1690C7063EB3D16A"
+				type: "item"
+				item: "botania:mana_spreader"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.0d
+			dependencies: ["00000000000003A9"]
+			id: "00000000000003E9"
+			tasks: [{
+				id: "00000000000003EA"
+				type: "item"
+				item: "botania:life_essence"
+			}]
+			rewards: [{
+				id: "291E6E4F5613C16A"
+				type: "item"
+				item: "botania:record_gaia_1"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["0000000000000416"]
+			id: "00000000000003EB"
+			tasks: [{
+				id: "00000000000003EC"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+			rewards: [{
+				id: "35EDD0934EC5F626"
+				type: "item"
+				item: "botania:thorn_chakram"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["00000000000003AB"]
+			id: "00000000000003ED"
+			tasks: [{
+				id: "00000000000003EE"
+				type: "item"
+				item: "botania:dragonstone"
+			}]
+			rewards: [{
+				id: "23218B1AE56D8E8E"
+				type: "item"
+				item: "botania:dragonstone"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["00000000000003AB"]
+			id: "00000000000003EF"
+			tasks: [{
+				id: "00000000000003F0"
+				type: "item"
+				item: "botania:pixie_dust"
+			}]
+			rewards: [{
+				id: "28E7F1710FF3EAC6"
+				type: "item"
+				item: "botania:pixie_dust"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["00000000000003AB"]
+			id: "00000000000003F1"
+			tasks: [{
+				id: "00000000000003F2"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+			rewards: [{
+				id: "0BA2D32EFF0E6061"
+				type: "item"
+				item: "botaniaadditions:regen_ivy"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.5d
+			dependencies: ["00000000000003D5"]
+			id: "00000000000003F3"
+			tasks: [{
+				id: "00000000000003F4"
+				type: "item"
+				item: {
+					id: "botania:auto_crafting_halo"
+					Count: 1b
+					tag: {
+						rotationBase: 630.4825f
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C23F44BC157F474"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 8
+			}]
+		}
+		{
+			x: 7.0d
+			y: -8.5d
+			dependencies: ["00000000000003F9"]
+			id: "00000000000003F5"
+			tasks: [{
+				id: "00000000000003F6"
+				type: "item"
+				item: "botania:mana_distributor"
+			}]
+			rewards: [{
+				id: "0B6499BC1161C232"
+				type: "item"
+				item: "botania:mana_distributor"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -7.0d
+			dependencies: ["00000000000003D2"]
+			size: 2.0d
+			id: "00000000000003F7"
+			tasks: [{
+				id: "00000000000003F8"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "077D8643E7010B12"
+				type: "item"
+				item: "botania:livingrock"
+				count: 16
+			}]
+		}
+		{
+			x: 7.0d
+			y: -7.0d
+			dependencies: ["4E8017A427B96DC5"]
+			size: 2.0d
+			id: "00000000000003F9"
+			tasks: [{
+				id: "00000000000003FA"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [{
+				id: "38F55633A5344A8D"
+				type: "item"
+				item: "botania:diluted_pool"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			description: ["And here comes the flight!"]
+			dependencies: ["00000000000003E9"]
+			id: "00000000000003FB"
+			tasks: [{
+				id: "00000000000003FC"
+				type: "item"
+				item: {
+					id: "botania:flight_tiara"
+					Count: 1b
+					tag: {
+						variant: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5BAEC5D402D7E1F0"
+				type: "item"
+				item: "botania:ender_air_bottle"
+				count: 32
+			}]
+		}
+		{
+			title: "Elementium Armor"
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["00000000000003F1"]
+			id: "00000000000003FD"
+			tasks: [
+				{
+					id: "00000000000003FE"
+					type: "item"
+					item: {
+						id: "botania:elementium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-597681243
+								826493361
+								-1917670745
+								876601677
+							]
+						}
+					}
+				}
+				{
+					id: "00000000000003FF"
+					type: "item"
+					item: {
+						id: "botania:elementium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000400"
+					type: "item"
+					item: {
+						id: "botania:elementium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000401"
+					type: "item"
+					item: {
+						id: "botania:elementium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0A28925ACC029419"
+				type: "item"
+				item: "botania:elementium_ingot"
+				count: 9
+			}]
+		}
+		{
+			title: "Manasteel Armor"
+			x: 9.5d
+			y: -5.5d
+			dependencies: ["00000000000003D3"]
+			id: "0000000000000402"
+			tasks: [
+				{
+					id: "0000000000000403"
+					type: "item"
+					item: {
+						id: "botania:manasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000404"
+					type: "item"
+					item: {
+						id: "botania:manasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000405"
+					type: "item"
+					item: {
+						id: "botania:manasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000406"
+					type: "item"
+					item: {
+						id: "botania:manasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "469A6A90E1BE9BD9"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			title: "Terrasteel Armor"
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["00000000000003EB"]
+			id: "0000000000000407"
+			tasks: [
+				{
+					id: "0000000000000408"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000409"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000040A"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000040B"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "79C7B370B3EFB547"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				count: 6
+			}]
+		}
+		{
+			title: "Alfsteel Armor"
+			x: 11.0d
+			y: 1.0d
+			dependencies: ["00000000000003E1"]
+			id: "000000000000040C"
+			tasks: [
+				{
+					id: "000000000000040D"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000040E"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000040F"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000410"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3E57A0A13F0CFB01"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "5576A1C1D9D2A984"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -8.5d
+			dependencies: ["4E8017A427B96DC5"]
+			id: "0000000000000411"
+			tasks: [{
+				id: "0000000000000412"
+				type: "item"
+				item: "botania:alchemy_catalyst"
+			}]
+			rewards: [{
+				id: "3BB3EED9E49C2E05"
+				type: "item"
+				item: "minecraft:lily_pad"
+				count: 16
+			}]
+		}
+		{
+			x: 5.5d
+			y: -7.5d
+			dependencies: ["0000000000000411"]
+			id: "0000000000000414"
+			tasks: [{
+				id: "0000000000000415"
+				type: "item"
+				item: "botania:conjuration_catalyst"
+			}]
+			rewards: [
+				{
+					id: "0926A0C42B85594D"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 32
+				}
+				{
+					id: "548F882F8370C4D5"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			dependencies: [
+				"0000000000000375"
+				"0000000000000373"
+				"00000000000003A3"
+				"000000000000037F"
+				"00000000000003A1"
+			]
+			size: 2.0d
+			id: "0000000000000416"
+			tasks: [{
+				id: "0000000000000417"
+				type: "item"
+				item: "botania:terra_plate"
+			}]
+			rewards: [{
+				id: "05B63B6D67728EDC"
+				type: "item"
+				item: "minecraft:lapis_block"
+				count: 4
+			}]
+		}
+		{
+			x: 12.0d
+			y: -3.0d
+			dependencies: ["00000000000003F2"]
+			size: 2.0d
+			id: "0000000000000418"
+			tasks: [{
+				id: "0000000000000419"
+				type: "item"
+				item: "mythicbotany:mana_infuser"
+			}]
+			rewards: [{
+				id: "7B9DBFAFD04F8F64"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			dependencies: ["0000000000000416"]
+			id: "000000000000041A"
+			tasks: [{
+				id: "000000000000041B"
+				type: "item"
+				item: "botania:spark"
+			}]
+			rewards: [{
+				id: "4874337100DFB7C5"
+				type: "item"
+				item: "botania:spark"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -6.5d
+			dependencies: ["00000000000003F9"]
+			id: "000000000000041C"
+			tasks: [{
+				id: "000000000000041D"
+				type: "item"
+				item: {
+					id: "botania:mana_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6ABE77FA881CBC6D"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 2
+			}]
+		}
+		{
+			x: 10.0d
+			y: -6.5d
+			dependencies: ["000000000000041C"]
+			id: "000000000000041E"
+			tasks: [{
+				id: "000000000000041F"
+				type: "item"
+				item: {
+					id: "botania:mana_ring_greater"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5A237F93C59F7804"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 8
+			}]
+		}
+		{
+			x: 9.5d
+			y: -7.5d
+			dependencies: ["000000000000041E"]
+			id: "0000000000000420"
+			tasks: [{
+				id: "0000000000000421"
+				type: "item"
+				item: {
+					id: "mythicbotany:mana_ring_greatest"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7D7E473DE2A445F8"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 16
+			}]
+		}
+		{
+			x: 5.0d
+			y: -6.5d
+			dependencies: ["00000000000003F9"]
+			id: "0000000000000422"
+			tasks: [{
+				id: "0000000000000423"
+				type: "item"
+				item: "botania:aura_ring"
+			}]
+			rewards: [{
+				id: "05B8F538EEE85732"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: 4.0d
+			y: -6.5d
+			dependencies: ["0000000000000422"]
+			id: "0000000000000424"
+			tasks: [{
+				id: "0000000000000425"
+				type: "item"
+				item: "botania:aura_ring_greater"
+			}]
+			rewards: [{
+				id: "342168A6538F524C"
+				type: "item"
+				item: "botania:rune_mana"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: -7.5d
+			dependencies: ["0000000000000424"]
+			id: "0000000000000426"
+			tasks: [{
+				id: "0000000000000427"
+				type: "item"
+				item: "mythicbotany:aura_ring_greatest"
+			}]
+			rewards: [{
+				id: "646C840235721C94"
+				type: "item"
+				item: "botania:dragonstone"
+				count: 4
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.5d
+			dependencies: ["00000000000003F9"]
+			id: "0000000000000428"
+			tasks: [{
+				id: "0000000000000429"
+				type: "item"
+				item: {
+					id: "botania:magnet_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "42BE6F563A03738E"
+				type: "item"
+				item: {
+					id: "botania:lens_normal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.5d
+			dependencies: ["0000000000000428"]
+			id: "000000000000042A"
+			tasks: [{
+				id: "000000000000042B"
+				type: "item"
+				item: {
+					id: "botania:magnet_ring_greater"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "51D60221E490062C"
+				type: "item"
+				item: "botania:terrasteel_nugget"
+				count: 3
+			}]
+		}
+		{
+			x: 7.0d
+			y: -11.0d
+			dependencies: ["00000000000003B6"]
+			size: 2.0d
+			id: "000000000000042C"
+			tasks: [{
+				id: "000000000000042D"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "796D354320511CC3"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.0d
+			dependencies: ["00000000000003B5"]
+			id: "000000000000042E"
+			tasks: [{
+				id: "000000000000042F"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "15AF57344877D9F2"
+				type: "item"
+				item: "minecraft:coal"
+				count: 16
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			subtitle: "The Floor is not lava..."
+			description: ["But the flower is!"]
+			dependencies: ["00000000000003B5"]
+			id: "0000000000000430"
+			tasks: [{
+				id: "0000000000000431"
+				type: "item"
+				item: "botania:thermalily"
+			}]
+			rewards: [{
+				id: "446E1E04EA059688"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			dependencies: ["00000000000003B5"]
+			id: "0000000000000432"
+			tasks: [{
+				id: "0000000000000433"
+				type: "item"
+				item: "botania:rosa_arcana"
+			}]
+			rewards: [{
+				id: "4572914F0F785D46"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.0d
+			dependencies: ["00000000000003B5"]
+			id: "0000000000000434"
+			tasks: [{
+				id: "0000000000000435"
+				type: "item"
+				item: "botania:exoflame"
+			}]
+			rewards: [{
+				id: "11D6CB0176C2024D"
+				type: "item"
+				item: "minecraft:furnace"
+				count: 32
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			subtitle: "HAHAHA! BOOM!"
+			dependencies: ["00000000000003B5"]
+			id: "0000000000000436"
+			tasks: [{
+				id: "0000000000000437"
+				type: "item"
+				item: "botania:entropinnyum"
+			}]
+			rewards: [{
+				id: "5CA92607F8E56F02"
+				type: "item"
+				item: "minecraft:tnt"
+				count: 4
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			subtitle: "A gift from Aperture Science."
+			description: ["The cake is a lie."]
+			dependencies: ["00000000000003B5"]
+			id: "0000000000000438"
+			tasks: [{
+				id: "0000000000000439"
+				type: "item"
+				item: "botania:kekimurus"
+			}]
+			rewards: [{
+				id: "25F2649CDA83C28B"
+				type: "item"
+				item: "minecraft:cake"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -8.0d
+			subtitle: "Slime falls from the sky..."
+			description: ["Beware... Because... Uhhh... Well you will see."]
+			dependencies: ["00000000000003B5"]
+			id: "000000000000043A"
+			tasks: [{
+				id: "000000000000043B"
+				type: "item"
+				item: "botania:narslimmus"
+			}]
+			rewards: [{
+				id: "5AA3AE0E797F81D6"
+				type: "item"
+				item: {
+					id: "minecraft:slime_spawn_egg"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							Size: 31
+							id: "minecraft:slime"
+						}
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"King Slime\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			dependencies: ["00000000000003B5"]
+			id: "000000000000043C"
+			tasks: [{
+				id: "000000000000043D"
+				type: "item"
+				item: "botania:orechid"
+			}]
+			rewards: [{
+				id: "0E15149EA888ADF7"
+				type: "item"
+				item: "janoeo:dense_diamond_ore"
+				count: 4
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			dependencies: ["00000000000003B5"]
+			id: "000000000000043E"
+			tasks: [{
+				id: "000000000000043F"
+				type: "item"
+				item: "botania:orechid_ignem"
+			}]
+			rewards: [{
+				id: "03ABAC6F8A6C2D73"
+				type: "item"
+				item: "minecraft:ancient_debris"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.5d
+			dependencies: ["00000000000003B5"]
+			id: "0000000000000440"
+			tasks: [{
+				id: "0000000000000441"
+				type: "item"
+				item: "botania:marimorphosis"
+			}]
+			rewards: [{
+				id: "4AA708EE830E76CC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.5d
+			y: -7.0d
+			dependencies: ["00000000000003B5"]
+			id: "0000000000000442"
+			tasks: [{
+				id: "0000000000000443"
+				type: "item"
+				item: "botania:solegnolia"
+			}]
+			rewards: [{
+				id: "4C57AEE158BBD754"
+				type: "item"
+				item: "botania:floating_solegnolia"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -9.5d
+			dependencies: ["0000000000000440"]
+			id: "0000000000000444"
+			tasks: [
+				{
+					id: "0000000000000445"
+					type: "item"
+					item: "botania:metamorphic_forest_stone"
+				}
+				{
+					id: "0000000000000446"
+					type: "item"
+					item: "botania:metamorphic_plains_stone"
+				}
+				{
+					id: "0000000000000447"
+					type: "item"
+					item: "botania:metamorphic_mountain_stone"
+				}
+				{
+					id: "0000000000000448"
+					type: "item"
+					item: "botania:metamorphic_fungal_stone"
+				}
+				{
+					id: "0000000000000449"
+					type: "item"
+					item: "botania:metamorphic_swamp_stone"
+				}
+				{
+					id: "000000000000044A"
+					type: "item"
+					item: "botania:metamorphic_desert_stone"
+				}
+				{
+					id: "000000000000044B"
+					type: "item"
+					item: "botania:metamorphic_taiga_stone"
+				}
+				{
+					id: "000000000000044C"
+					type: "item"
+					item: "botania:metamorphic_mesa_stone"
+				}
+			]
+			rewards: [{
+				id: "2FBB875C7D78E70D"
+				type: "item"
+				item: "minecraft:stonecutter"
+			}]
+		}
+		{
+			title: "Living Material"
+			x: 7.0d
+			y: -9.5d
+			dependencies: ["000000000000042C"]
+			id: "4E8017A427B96DC5"
+			tasks: [
+				{
+					id: "1E075F013A326011"
+					type: "item"
+					item: "botania:livingrock"
+					count: 16L
+				}
+				{
+					id: "065CA81DA38942DD"
+					type: "item"
+					item: "botania:livingwood"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "25FD296BADCDE1AC"
+					type: "item"
+					item: "botania:livingrock"
+					count: 8
+				}
+				{
+					id: "79707CA07BDAFEB5"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -1.0d
+			dependencies: ["00000000000003DF"]
+			size: 2.0d
+			id: "7E165C3D21F39879"
+			tasks: [{
+				id: "2B33A4299C13D905"
+				type: "item"
+				item: "mythicbotany:alfsteel_pylon"
+			}]
+			rewards: [{
+				id: "4519D61889F3D558"
+				type: "item"
+				item: "minecraft:ghast_tear"
+				count: 4
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["00000000000003EC"]
+			id: "3C5F7AE3FA712ED6"
+			tasks: [{
+				id: "2D9AAD5C54CB3848"
+				type: "item"
+				item: "mythicbotany:yggdrasil_branch"
+			}]
+			rewards: [{
+				id: "01CE12A0F8B2FCB9"
+				type: "item"
+				item: "botania:terrasteel_nugget"
+				count: 3
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			dependencies: ["3C5F7AE3FA712ED6"]
+			id: "3B3690A73AE1221B"
+			tasks: [{
+				id: "6EFA460A87066C63"
+				type: "item"
+				item: "mythicbotany:gjallar_horn_empty"
+			}]
+			rewards: [{
+				id: "2D499E5C65712084"
+				type: "item"
+				item: "botania:avatar"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["3B3690A73AE1221B"]
+			id: "17F4F882FBC93A4B"
+			tasks: [{
+				id: "2F06D18D19919CC9"
+				type: "item"
+				item: "mythicbotany:gjallar_horn_full"
+			}]
+			rewards: [
+				{
+					id: "6C6C4F52734BEF51"
+					type: "item"
+					item: "botania:livingwood"
+					count: 64
+				}
+				{
+					id: "75F03964A284933C"
+					type: "item"
+					item: "botania:livingrock"
+					count: 64
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			dependencies: [
+				"00000000000003DD"
+				"17F4F882FBC93A4B"
+			]
+			id: "1F196D2F8EC9C7D3"
+			tasks: [{
+				id: "452D57CB44E5DAA9"
+				type: "item"
+				item: "mythicbotany:fimbultyr_tablet"
+			}]
+			rewards: [{
+				id: "392703B0A9F57A4F"
+				type: "item"
+				item: "mythicbotany:fimbultyr_tablet"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			dependencies: ["1F196D2F8EC9C7D3"]
+			id: "0A092542A77AFA9D"
+			tasks: [
+				{
+					id: "7CA8324CF35CA549"
+					type: "item"
+					item: "mythicbotany:master_rune_holder"
+				}
+				{
+					id: "0609329FCC3206AC"
+					type: "item"
+					item: "mythicbotany:rune_holder"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "0C4E1699DE229801"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 9
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			dependencies: ["0A092542A77AFA9D"]
+			id: "5EBB91A231A640CE"
+			tasks: [{
+				id: "1A4BA3F82FB67E2B"
+				type: "item"
+				item: "mythicbotany:kvasir_blood"
+			}]
+			rewards: [{
+				id: "7A8C3E14D7E9427A"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			dependencies: ["5EBB91A231A640CE"]
+			id: "09F4E13303AF49A3"
+			tasks: [{
+				id: "4A458D0651A84CD9"
+				type: "item"
+				item: "mythicbotany:kvasir_mead"
+			}]
+			rewards: [{
+				id: "06AA06DB8E20DC8F"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			dependencies: ["0A092542A77AFA9D"]
+			size: 2.0d
+			id: "6702BC20FA6C1003"
+			tasks: [{
+				id: "42C45CF1B5EF5DD5"
+				type: "item"
+				item: "mythicbotany:mjoellnir"
+			}]
+			rewards: [{
+				id: "36CBCB5B79628927"
+				type: "item"
+				item: "thermal:lightning_grenade"
+				count: 16
+			}]
+		}
+		{
+			title: "How do I begin Botania ?"
+			icon: "create:brass_hand"
+			x: 7.0d
+			y: -12.5d
+			shape: "circle"
+			description: [
+				"To begin with botania in this pack you need two things."
+				"To get Livingwood you have to begin a little with Astral and get Infused Wood."
+				"And to get Livingrock you need to gather Deapthrock in The Undergarden."
+			]
+			dependencies: ["000000000000036D"]
+			id: "5178F1461D6138EC"
+			tasks: [{
+				id: "2335C1F2FA0D2792"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "024C100A8E9A8D5B"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+		}
+	]
+}

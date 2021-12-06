@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "tag": "forge:wither_bones" },
+    { "tag": "forge:wither_bones" },
+    { "tag": "forge:wither_bones" },
+    { "tag": "forge:wither_bones" },
+    { "tag": "forge:wither_bones" },
+    { "tag": "forge:wither_bones" },
+    { "tag": "forge:wither_bones" },
+    { "tag": "forge:wither_bones" },
+    { "tag": "forge:wither_bones" }
+  ],
+  "result": {
+    "count": 1,
+    "item": "architects_palette:withered_bone_block"
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BB",
+        " S",
+        " S"
+    
+    ],
+    
+    "key":
+    { 
+        "B":
+        {
+            "item": "forge:ingots/arcane_gold"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+        
+    },
+    
+    "result":
+    {
+        "item": "forbidden_arcanus:arcane_golden_hoe"
+    }
+}

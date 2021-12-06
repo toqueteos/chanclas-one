@@ -1,0 +1,5 @@
+{
+  "type": "mekanism:crushing",
+  "input": { "ingredient": { "item": "quark:deepslate" } },
+  "output": { "item": "quark:cobbled_deepslate" }
+}

@@ -1,0 +1,5 @@
+{
+  "type": "immersiveengineering:fertilizer",
+  "growthModifier": 2.0,
+  "input": { "item": "mysticalagriculture:mystical_fertilizer" }
+}

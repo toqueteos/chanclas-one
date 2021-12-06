@@ -1,0 +1,1523 @@
+{
+	id: "2E6F230CBBDFCC64"
+	group: ""
+	order_index: 25
+	filename: "rats"
+	title: "Rats"
+	icon: { id: "rats:cheese", Count: 64b }
+	subtitle: ["Ratatouille. "]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 11.5d
+			y: -1.5d
+			dependencies: ["4B92E61722B69EDF"]
+			id: "1A8AA059594882D7"
+			tasks: [{
+				id: "22F96D2EF5A3A6E3"
+				type: "item"
+				item: "rats:chunky_cheese_token"
+			}]
+			rewards: [{
+				id: "4B9872F2A4176BB4"
+				type: "item"
+				item: "rats:marbled_cheese_raw"
+				count: 32
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			dependencies: ["242A94EA0FE20741"]
+			id: "0FF8F1D9E9003F9F"
+			tasks: [{
+				id: "0E9A8F1FED1CFEE8"
+				type: "item"
+				item: "rats:rat_trap"
+			}]
+			rewards: [{
+				id: "67FF231A08ADC66F"
+				type: "item"
+				item: "rats:rat_trap"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -6.0d
+			dependencies: ["242A94EA0FE20741"]
+			id: "5C16E1918976D6B1"
+			tasks: [{
+				id: "5EE85BE8C47835B4"
+				type: "item"
+				item: "rats:rat_cage"
+			}]
+			rewards: [{
+				id: "30A11D2E0420656F"
+				type: "item"
+				item: "rats:rat_breeding_lantern"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.0d
+			dependencies: ["242A94EA0FE20741"]
+			id: "4B92E61722B69EDF"
+			tasks: [{
+				id: "291A6E5125729A43"
+				type: "item"
+				item: "rats:plague_tome"
+			}]
+			rewards: [{
+				id: "70B46D35952BBE24"
+				type: "item"
+				item: "rats:plague_leech"
+				count: 16
+			}]
+		}
+		{
+			x: 10.0d
+			y: -4.0d
+			dependencies: ["242A94EA0FE20741"]
+			id: "763E67C52F25D145"
+			tasks: [{
+				id: "2C87D15DEA3F535F"
+				type: "item"
+				item: "rats:rat_crafting_table"
+			}]
+			rewards: [{
+				id: "7F942A52920FAEA7"
+				type: "item"
+				item: "rats:block_of_cheese"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -4.0d
+			dependencies: ["76C3D8EA09C82C75"]
+			id: "3AF9509976915C65"
+			tasks: [{
+				id: "3AAA5697C557F121"
+				type: "item"
+				item: {
+					id: "rats:gilded_rat_flute"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4CE890079C2226DF"
+				type: "item"
+				item: "rats:golden_rat_skull"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -5.0d
+			dependencies: ["242A94EA0FE20741"]
+			id: "76C3D8EA09C82C75"
+			tasks: [{
+				id: "6986024051265259"
+				type: "item"
+				item: {
+					id: "rats:rat_flute"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4F6095CB74DA3CB0"
+				type: "item"
+				item: "rats:rat_flute"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -6.0d
+			dependencies: ["242A94EA0FE20741"]
+			id: "530F83CB1B5BF721"
+			tasks: [{
+				id: "5905D41D3AD79BA4"
+				type: "item"
+				item: {
+					id: "rats:rat_whistle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5DBDF5279FB52CA7"
+				type: "item"
+				item: "rats:cheese"
+				count: 8
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			dependencies: ["242A94EA0FE20741"]
+			id: "7CB2BC514B23696B"
+			tasks: [{
+				id: "0EFEEB4A68118D14"
+				type: "item"
+				item: {
+					id: "rats:cheese_stick"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "404EAB1907BA1D73"
+				type: "item"
+				item: "rats:cheese"
+				count: 32
+			}]
+		}
+		{
+			title: "Ratlantis Armor"
+			x: 10.5d
+			y: 0.5d
+			dependencies: ["035F092B95401951"]
+			id: "22FA63E5EC68F99D"
+			tasks: [
+				{
+					id: "0D2EE16F3F0CDE8C"
+					type: "item"
+					item: {
+						id: "rats:ratlantis_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "306403DFE75A91A5"
+					type: "item"
+					item: {
+						id: "rats:ratlantis_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "22610065F8A3A3C3"
+					type: "item"
+					item: {
+						id: "rats:ratlantis_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "379E699E101691D3"
+					type: "item"
+					item: {
+						id: "rats:ratlantis_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "49C650598B29B371"
+				type: "item"
+				item: "rats:psionic_rat_brain"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.0d
+			dependencies: ["1A8AA059594882D7"]
+			id: "035F092B95401951"
+			tasks: [{
+				id: "7F90E4AFEE90A99B"
+				type: "item"
+				item: "rats:oratchalcum_ingot"
+			}]
+			rewards: [{
+				id: "0F3D396346BF0C43"
+				type: "item"
+				item: "rats:oratchalcum_ore"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.5d
+			dependencies: ["1164A5A0D1C8B551"]
+			id: "051C66278481F7D2"
+			tasks: [{
+				id: "78B43F3E694A64E7"
+				type: "item"
+				item: "rats:filth_corruption"
+			}]
+			rewards: [{
+				id: "4A2F713A09650135"
+				type: "item"
+				item: "rats:compressed_garbage"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.5d
+			dependencies: ["3325ED4EFCABC3F9"]
+			id: "1164A5A0D1C8B551"
+			tasks: [{
+				id: "504E48EE7BB08DDC"
+				type: "item"
+				item: "rats:garbage_pile"
+			}]
+			rewards: [{
+				id: "17ACFCAAE1EDDDCF"
+				type: "item"
+				item: "rats:garbage_pile"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			dependencies: ["6BD08539ACC08679"]
+			id: "5E6FDB502D5D176A"
+			tasks: [{
+				id: "3A2EA8A8BC7A2DEB"
+				type: "item"
+				item: "rats:upgrade_separator"
+			}]
+			rewards: [{
+				id: "614ED57614E3F273"
+				type: "item"
+				item: "rats:ancient_sawblade"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			dependencies: [
+				"714AEEB1F0C79E39"
+				"59CADA2C45F3C4EA"
+				"5812EA1B2C12B448"
+				"066ADA699369A762"
+			]
+			size: 2.0d
+			id: "7D9B2867240596B5"
+			tasks: [{
+				id: "6C0C0B8876A2F815"
+				type: "item"
+				item: "rats:rat_upgrade_nonbeliever"
+			}]
+			rewards: [{
+				id: "1F128F768EDE20D2"
+				type: "item"
+				item: "rats:rat_upgrade_nonbeliever"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.5d
+			dependencies: [
+				"210AE7057491F9F4"
+				"5812EA1B2C12B448"
+			]
+			id: "3CA6ADB51DB4E70F"
+			tasks: [{
+				id: "2C82772041212A29"
+				type: "item"
+				item: "rats:rat_upgrade_psychic"
+			}]
+			rewards: [{
+				id: "49BC6A818F792C26"
+				type: "item"
+				item: "minecraft:end_crystal"
+				count: 2
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			dependencies: [
+				"210AE7057491F9F4"
+				"195B2E6490AC5C70"
+			]
+			id: "05113F54E446AE55"
+			tasks: [{
+				id: "16F30406A18FC530"
+				type: "item"
+				item: "rats:rat_upgrade_ratinator"
+			}]
+			rewards: [{
+				id: "59FEC7031E118C19"
+				type: "item"
+				item: "rats:charged_ratbot_barrel"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 4.0d
+			dependencies: ["210AE7057491F9F4"]
+			id: "7B703AB110C1E686"
+			tasks: [{
+				id: "1A2A72E8BA543F99"
+				type: "item"
+				item: "rats:rat_upgrade_feral_bite"
+			}]
+			rewards: [{
+				id: "0081651CF69D5CA6"
+				type: "item"
+				item: "rats:plague_essence"
+			}]
+		}
+		{
+			title: "Gem of Ratlantis"
+			x: 5.5d
+			y: 3.5d
+			dependencies: ["05D1A381F7B1B9D9"]
+			id: "7316F9AF8C66A6E2"
+			tasks: [{
+				id: "153B4EBBAE29CD5B"
+				type: "item"
+				item: "rats:gem_of_ratlantis"
+				count: 16L
+			}]
+			rewards: [{
+				id: "176C09D29724DE32"
+				type: "item"
+				item: "compressium:emerald_1"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			dependencies: ["16E956B533EFEFEF"]
+			id: "6BD08539ACC08679"
+			tasks: [{
+				id: "419B7E370E568660"
+				type: "item"
+				item: "rats:upgrade_combiner"
+			}]
+			rewards: [{
+				id: "6D8A3E61CCB478AC"
+				type: "item"
+				item: "rats:rat_upgrade_combined"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			dependencies: [
+				"7316F9AF8C66A6E2"
+				"05D1A381F7B1B9D9"
+				"1560F36084D096B5"
+				"0E14FF7D07E25D3C"
+				"0EF7A3C6BE32E632"
+			]
+			id: "16E956B533EFEFEF"
+			tasks: [{
+				id: "2404F883FAA20F21"
+				type: "item"
+				item: "rats:idol_of_ratlantis"
+			}]
+			rewards: [{
+				id: "2FC14FCA274C5225"
+				type: "item"
+				item: "rats:ratlantis_rat_skull"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.5d
+			dependencies: ["242A94EA0FE20741"]
+			id: "210AE7057491F9F4"
+			tasks: [{
+				id: "569F6ECCFE845873"
+				type: "item"
+				item: "rats:rat_upgrade_basic_ratlantean"
+			}]
+			rewards: [{
+				id: "076C977222F6169D"
+				type: "item"
+				item: "rats:rat_upgrade_basic_ratlantean"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			dependencies: ["63822E442756DB3C"]
+			id: "195B2E6490AC5C70"
+			tasks: [{
+				id: "5202F08E52C83BD1"
+				type: "item"
+				item: "rats:marbled_cheese_rat_head"
+			}]
+			rewards: [{
+				id: "68D005F1B92F4ADB"
+				type: "item"
+				item: "rats:marbled_cheese_rat_head"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			dependencies: ["242A94EA0FE20741"]
+			id: "78BD956B8152166B"
+			tasks: [{
+				id: "6D3BFB8530D46A72"
+				type: "item"
+				item: {
+					id: "rats:chef_toque"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5B4B91809D5BE6E9"
+				type: "item"
+				item: {
+					id: "rats:chef_toque"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["63822E442756DB3C"]
+			id: "0E14FF7D07E25D3C"
+			tasks: [{
+				id: "76BEEAB28B10DE29"
+				type: "item"
+				item: "rats:rat_toga"
+			}]
+			rewards: [{
+				id: "492F29F5C69CF6C3"
+				type: "item"
+				item: "rats:rat_toga"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.5d
+			dependencies: ["63822E442756DB3C"]
+			id: "1560F36084D096B5"
+			tasks: [{
+				id: "54985461A28B2B47"
+				type: "item"
+				item: "rats:ratlantean_flame"
+			}]
+			rewards: [{
+				id: "642F01526950D86A"
+				type: "item"
+				item: "botania:blaze_block"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			dependencies: ["63822E442756DB3C"]
+			id: "57A38922E4DDA238"
+			tasks: [{
+				id: "3DB1BDF0CAD05670"
+				type: "item"
+				item: {
+					id: "rats:pirat_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5EB52173AF188F95"
+				type: "item"
+				item: {
+					id: "rats:pirat_cutlass"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			dependencies: ["242A94EA0FE20741"]
+			id: "7AD772CEAA9AD035"
+			tasks: [{
+				id: "3ED5BFA0B86F53C5"
+				type: "item"
+				item: {
+					id: "rats:piper_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "67A559102CD17DA1"
+				type: "item"
+				item: "rats:pied_garbage"
+			}]
+		}
+		{
+			title: "Ratglove Petals"
+			x: 6.0d
+			y: 2.0d
+			dependencies: ["63822E442756DB3C"]
+			id: "05D1A381F7B1B9D9"
+			tasks: [{
+				id: "7BA696669BAC0973"
+				type: "item"
+				item: "rats:ratglove_petals"
+				count: 16L
+			}]
+			rewards: [{
+				id: "577550EC7F478942"
+				type: "item"
+				item: "rats:compressed_rat"
+				count: 3
+			}]
+		}
+		{
+			x: 6.5d
+			y: -6.0d
+			dependencies: ["5BE41CB01AC61DE5"]
+			id: "63CBF9D7114E54F6"
+			tasks: [{
+				id: "0054997D28F1D44E"
+				type: "item"
+				item: "rats:potato_kinishes"
+			}]
+			rewards: [{
+				id: "69A31F9671EEC85D"
+				type: "item"
+				item: "rats:potato_kinishes"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.0d
+			dependencies: ["5BE41CB01AC61DE5"]
+			id: "6AC5ADC716E5CB53"
+			tasks: [{
+				id: "7515BE386A358CC0"
+				type: "item"
+				item: "rats:confit_byaldi"
+			}]
+			rewards: [{
+				id: "1FB7ECBD42221230"
+				type: "item"
+				item: "rats:confit_byaldi"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "63822E442756DB3C"
+			tasks: [{
+				id: "04873C9E685BE354"
+				type: "item"
+				item: "rats:rat_upgrade_archeologist"
+			}]
+			rewards: [
+				{
+					id: "1E4588E6586EC6C0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "07B93E9B44853C3A"
+					type: "item"
+					item: {
+						id: "rats:archeologist_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: -2.5d
+			dependencies: ["509DA1E57330B3EC"]
+			id: "27A422CBCAE30809"
+			tasks: [{
+				id: "7F403CE7EFA2E3A9"
+				type: "item"
+				item: {
+					id: "rats:radius_stick"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "293FDB7447376C75"
+				type: "item"
+				item: {
+					id: "xreliquary:mob_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
+						entity: "rats:plague_cloud"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			dependencies: ["242A94EA0FE20741"]
+			size: 2.0d
+			id: "5FD63F0F2DE00907"
+			tasks: [{
+				id: "29A4B165297661BC"
+				type: "item"
+				item: "rats:rat_upgrade_basic"
+			}]
+			rewards: [{
+				id: "5D56CF16704FB96D"
+				type: "item"
+				item: "rats:rat_upgrade_basic"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "6F940E91F280DCE5"
+			tasks: [{
+				id: "07638ED20B03CF40"
+				type: "item"
+				item: "rats:rat_upgrade_speed"
+			}]
+			rewards: [{
+				id: "327F52A20A51B821"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 16
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.5d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "3723A222CF1AD06A"
+			tasks: [{
+				id: "7C502FA76CAC9CCE"
+				type: "item"
+				item: "rats:rat_upgrade_platter"
+			}]
+			rewards: [{
+				id: "17EE09100B4036FE"
+				type: "item"
+				item: "embellishcraft:plate"
+				count: 8
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "5B86B1DD12B25FA4"
+			tasks: [{
+				id: "3F84C21B9DC2F4DD"
+				type: "item"
+				item: "rats:rat_upgrade_health"
+			}]
+			rewards: [{
+				id: "1506B6112C8663EA"
+				type: "item"
+				item: "cyclic:heart"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "1F9A17829FD30920"
+			tasks: [{
+				id: "1E5C192CDC1FF6B5"
+				type: "item"
+				item: "rats:rat_upgrade_armor"
+			}]
+			rewards: [{
+				id: "76AC033CFCEFC248"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "36A42A7456E17D27"
+			tasks: [{
+				id: "11DBBDFF77DBCB2F"
+				type: "item"
+				item: "rats:rat_upgrade_bow"
+			}]
+			rewards: [{
+				id: "044E3BC17CB1CC9C"
+				type: "item"
+				item: "minecraft:arrow"
+				count: 64
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "2672426C20BEF91A"
+			tasks: [{
+				id: "2BFE3BCE45A7E0FE"
+				type: "item"
+				item: "rats:rat_upgrade_crossbow"
+			}]
+			rewards: [{
+				id: "6B5B38B5785A0E90"
+				type: "item"
+				item: {
+					id: "minecraft:firework_rocket"
+					Count: 1b
+					tag: {
+						Fireworks: {
+							Flight: 1b
+							Explosions: [
+								{
+									Type: 2b
+									Trail: 1b
+									Colors: [I;
+										1973019
+										11743532
+										1973019
+										11743532
+										11743532
+									]
+								}
+								{
+									Type: 3b
+									Trail: 1b
+									Colors: [I;
+										11743532
+										11743532
+										1973019
+										11743532
+										11743532
+									]
+								}
+							]
+						}
+					}
+				}
+				count: 64
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "08F4BC7FF2B6A327"
+			tasks: [{
+				id: "4006AB6F32780F47"
+				type: "item"
+				item: "rats:rat_upgrade_demon"
+			}]
+			rewards: [{
+				id: "525869882E76145F"
+				type: "item"
+				item: "rats:nether_cheese"
+				count: 8
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			dependencies: [
+				"5B86B1DD12B25FA4"
+				"1F9A17829FD30920"
+			]
+			id: "5A515E5352214E36"
+			tasks: [{
+				id: "5CA7EA183B6E24D6"
+				type: "item"
+				item: "rats:rat_upgrade_warrior"
+			}]
+			rewards: [{
+				id: "0E718DF80F15F851"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.5d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "6CC28077C034C552"
+			tasks: [{
+				id: "04B7C6D464730C8D"
+				type: "item"
+				item: "rats:rat_upgrade_big_bucket"
+			}]
+			rewards: [{
+				id: "1B8F1B1605ED09AD"
+				type: "item"
+				item: "mob_grinding_utils:tank"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["6D67C3AB1138704B"]
+			id: "72FDF7851E6C0760"
+			tasks: [{
+				id: "1EED130D3811A0FD"
+				type: "item"
+				item: "rats:rat_upgrade_quarry"
+			}]
+			rewards: [{
+				id: "2B61AAB0E9873A6B"
+				type: "item"
+				item: "rats:block_of_blue_cheese"
+				count: 4
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "65815EDEBA2B9487"
+			tasks: [{
+				id: "55B2AFDD5C559DC7"
+				type: "item"
+				item: "rats:rat_upgrade_farmer"
+			}]
+			rewards: [{
+				id: "11C15261BFE9FF15"
+				type: "item"
+				item: {
+					id: "undergarden:utheric_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "7BF57B8440009A81"
+			tasks: [{
+				id: "632AA41470FACAB5"
+				type: "item"
+				item: "rats:rat_upgrade_tick_accelerator"
+			}]
+			rewards: [{
+				id: "3F587382ED89CD09"
+				type: "item"
+				item: {
+					id: "apotheosis:potion_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Potion: "minecraft:strong_swiftness"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "6D67C3AB1138704B"
+			tasks: [{
+				id: "5F5EF8F741A1C369"
+				type: "item"
+				item: {
+					id: "rats:rat_upgrade_miner"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "51E642E111C5065B"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "6693A37BF3733DBE"
+			tasks: [{
+				id: "615F4C20C46547DF"
+				type: "item"
+				item: "rats:rat_upgrade_lumberjack"
+			}]
+			rewards: [{
+				id: "4C32396B93C55A1C"
+				type: "item"
+				item: {
+					id: "mekanismtools:netherite_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.5d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "4FFFF17E5D57958C"
+			tasks: [{
+				id: "73CD3B1FA2AB80FB"
+				type: "item"
+				item: "rats:rat_upgrade_extreme_energy"
+			}]
+			rewards: [{
+				id: "250F347C096FEBF6"
+				type: "item"
+				item: "rats:charged_creeper_chunk"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.5d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "6548423C300BCD08"
+			tasks: [{
+				id: "0E2A5ECD167D198A"
+				type: "item"
+				item: "rats:rat_upgrade_aristocrat"
+			}]
+			rewards: [{
+				id: "5144902662BFA7D4"
+				type: "item"
+				item: "rats:tiny_coin"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.0d
+			dependencies: ["5B86B1DD12B25FA4"]
+			id: "7D0167D70BF65759"
+			tasks: [{
+				id: "775986B8CB6710CE"
+				type: "item"
+				item: "rats:rat_upgrade_voodoo"
+			}]
+			rewards: [{
+				id: "27B12A0FF134F598"
+				type: "item"
+				item: {
+					id: "rats:top_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.5d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "6439A7627C47034C"
+			tasks: [{
+				id: "6C228A2B5DC9FBED"
+				type: "item"
+				item: "rats:rat_upgrade_gemcutter"
+			}]
+			rewards: [{
+				id: "075A1E68A4780344"
+				type: "item"
+				item: "rats:little_black_squash_balls"
+				count: 8
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "3E26F3A05D0907BC"
+			tasks: [{
+				id: "27B6E24B977100BC"
+				type: "item"
+				item: "rats:rat_upgrade_undead"
+			}]
+			rewards: [{
+				id: "144A592687909316"
+				type: "item"
+				item: {
+					id: "tconstruct:scythe"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.45f
+							"tconstruct:durability": 2.5f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 0.88000005f
+							"tconstruct:mining_speed": 1.125f
+							"tconstruct:attack_damage": 0.25f
+							"tconstruct:harvest_level": 1.0f
+							"tconstruct:durability": 187.5f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:piercing"
+								level: 4s
+							}
+							{
+								name: "tconstruct:silky_aoe_shears"
+								level: 1s
+							}
+							{
+								name: "tconstruct:harvest"
+								level: 1s
+							}
+							{
+								name: "tconstruct:hoe_transform_hidden"
+								level: 1s
+							}
+							{
+								name: "tconstruct:two_handed"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:bone"
+							"tconstruct:bone"
+							"tconstruct:bone"
+							"tconstruct:bone"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			dependencies: ["7B9DF0DAA55F0A11"]
+			id: "45747584AA15AA93"
+			tasks: [{
+				id: "434A5E9F5FE16569"
+				type: "item"
+				item: "rats:rat_upgrade_chicken_mount"
+			}]
+			rewards: [{
+				id: "7D418D92DC52844E"
+				type: "item"
+				item: "minecraft:feather"
+				count: 16
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["7B9DF0DAA55F0A11"]
+			id: "494A70AEEAB55B3D"
+			tasks: [{
+				id: "248E75414B446391"
+				type: "item"
+				item: "rats:rat_upgrade_golem_mount"
+			}]
+			rewards: [{
+				id: "03B08FC7E7A5CE5A"
+				type: "item"
+				item: "compressium:iron_1"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["7B9DF0DAA55F0A11"]
+			id: "461330F512D24D1F"
+			tasks: [{
+				id: "5E2D67B33E8B7DC7"
+				type: "item"
+				item: "rats:rat_upgrade_strider_mount"
+			}]
+			rewards: [{
+				id: "4EA4226B61F0E8FC"
+				type: "item"
+				item: {
+					id: "minecraft:warped_fungus_on_a_stick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["7B9DF0DAA55F0A11"]
+			id: "4AA73B46DB95BC5E"
+			tasks: [{
+				id: "44D5C32C7C004B42"
+				type: "item"
+				item: "rats:rat_upgrade_beast_mount"
+			}]
+			rewards: [{
+				id: "5E163307154E9FFF"
+				type: "item"
+				item: "rats:plague_leech"
+				count: 8
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: [
+				"5A515E5352214E36"
+				"1C96AE6A403C70E2"
+			]
+			id: "0ED8F5FAE7F54007"
+			tasks: [{
+				id: "54FFFA432353269B"
+				type: "item"
+				item: "rats:rat_upgrade_dragon"
+			}]
+			rewards: [{
+				id: "0BA23621A6272DBA"
+				type: "item"
+				item: "iceandfire:dragonscale_red"
+				count: 4
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "1C96AE6A403C70E2"
+			tasks: [{
+				id: "375044B6A3C1407B"
+				type: "item"
+				item: "rats:rat_upgrade_flight"
+			}]
+			rewards: [{
+				id: "03D6F917AF3D714D"
+				type: "item"
+				item: "forbidden_arcanus:orb_of_temporary_flight"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.0d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "55EF7EF61DD9F4ED"
+			tasks: [{
+				id: "4FCA0DF7D30C3914"
+				type: "item"
+				item: "rats:rat_upgrade_replanter"
+			}]
+			rewards: [{
+				id: "23F4AAB553876CAF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.5d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "4890DAC94F699B87"
+			tasks: [{
+				id: "5BF44279A828834B"
+				type: "item"
+				item: "rats:rat_upgrade_milker"
+			}]
+			rewards: [{
+				id: "63757997D4C88422"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "62A9C518329C4DCC"
+			tasks: [{
+				id: "1EECE2CA7ED6EADE"
+				type: "item"
+				item: "rats:rat_upgrade_crafting"
+			}]
+			rewards: [{
+				id: "3D91679EF7DD7E9D"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.5d
+			dependencies: [
+				"5FD63F0F2DE00907"
+				"78BD956B8152166B"
+			]
+			id: "5BE41CB01AC61DE5"
+			tasks: [{
+				id: "08377D05867C6450"
+				type: "item"
+				item: "rats:rat_upgrade_chef"
+			}]
+			rewards: [{
+				id: "1A8AF5DD58CE7937"
+				type: "item"
+				item: "pamhc2foodcore:cheesecakeitem"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			dependencies: ["5A515E5352214E36"]
+			id: "714AEEB1F0C79E39"
+			tasks: [{
+				id: "3CD172233F0EB4D0"
+				type: "item"
+				item: "rats:rat_upgrade_god"
+			}]
+			rewards: [{
+				id: "5FFE8D4CE59DCE9C"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["242A94EA0FE20741"]
+			id: "4719C4F2A25E00D5"
+			tasks: [{
+				id: "08254D60A1BC8288"
+				type: "item"
+				item: "rats:rat_quarry"
+			}]
+			rewards: [{
+				id: "25A39FB5621764BE"
+				type: "item"
+				item: "rats:blue_cheese"
+				count: 16
+			}]
+		}
+		{
+			x: 7.0d
+			y: -7.5d
+			dependencies: ["242A94EA0FE20741"]
+			id: "3325ED4EFCABC3F9"
+			tasks: [{
+				id: "78B7A9EB41551070"
+				type: "item"
+				item: "rats:trash_can"
+			}]
+			rewards: [
+				{
+					id: "40E80093BA95C5C7"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+				{
+					id: "272AD15F9B7D737C"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 64
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 4.0d
+			dependencies: ["63822E442756DB3C"]
+			id: "066ADA699369A762"
+			tasks: [{
+				id: "5A65A28F989E9D74"
+				type: "item"
+				item: "rats:arcane_technology"
+			}]
+			rewards: [{
+				id: "3D4FF9DA04B1DB17"
+				type: "item"
+				item: "minecraft:beacon"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			dependencies: ["5FD63F0F2DE00907"]
+			id: "7B9DF0DAA55F0A11"
+			tasks: [{
+				id: "00697C589EF33223"
+				type: "item"
+				item: "rats:rat_upgrade_basic_mount"
+			}]
+			rewards: [{
+				id: "020D110C37FB81F8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.5d
+			dependencies: ["63822E442756DB3C"]
+			id: "59CADA2C45F3C4EA"
+			tasks: [{
+				id: "27CD72E61263C96F"
+				type: "item"
+				item: "rats:dutchrat_wheel"
+			}]
+			rewards: [{
+				id: "7FE0753327C1C96E"
+				type: "item"
+				item: "minecraft:conduit"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.0d
+			dependencies: ["63822E442756DB3C"]
+			id: "5812EA1B2C12B448"
+			tasks: [{
+				id: "73018517E289B716"
+				type: "item"
+				item: "rats:psionic_rat_brain"
+			}]
+			rewards: [{
+				id: "52075BB387F3E10B"
+				type: "item"
+				item: "minecraft:dragon_breath"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -3.0d
+			dependencies: ["4B92E61722B69EDF"]
+			id: "509DA1E57330B3EC"
+			tasks: [{
+				id: "3CDC969C38EDC27E"
+				type: "item"
+				item: {
+					id: "rats:plague_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "61AAFE16E2F1AD98"
+				type: "item"
+				item: {
+					id: "xreliquary:mob_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
+						entity: "rats:plague_beast"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["63822E442756DB3C"]
+			id: "0EF7A3C6BE32E632"
+			tasks: [{
+				id: "63E50F6E10061D80"
+				type: "item"
+				item: "rats:ratfish"
+			}]
+			rewards: [
+				{
+					id: "55C225BF99A63B0F"
+					type: "item"
+					item: "rats:rat_upgrade_aquatic"
+				}
+				{
+					id: "34DC4DA2128DECCD"
+					type: "item"
+					item: "rats:rat_upgrade_fisherman"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -6.0d
+			dependencies: ["5BE41CB01AC61DE5"]
+			id: "5E95238C21F33FD8"
+			tasks: [{
+				id: "35BEE0D395872FFA"
+				type: "item"
+				item: "rats:string_cheese"
+			}]
+		}
+		{
+			title: "How do I begin Rats ?"
+			icon: "create:brass_hand"
+			x: 7.0d
+			y: -8.5d
+			shape: "circle"
+			description: [
+				"First you need a cow and a cauldron. Fill your cauldron with milk, wait a second, your milk will turn into cheese."
+				"{image:kubejs:textures/ftbquests/begin/milk_cheese.png width:150 height:100 align:1}"
+				"Now you can uncraft your Block of Cheese to get four pieces of cheese. Then, throw a lot of cheese on a wild rats to tame it !"
+				""
+				"To go in Ratlantis you need to right-click with a Chunky Cheese Token, a portal will appear."
+				"{image:kubejs:textures/ftbquests/begin/ratlantis.png width:150 height:100 align:1}"
+			]
+			dependencies: ["242A94EA0FE20741"]
+			id: "631F935632E735AC"
+			tasks: [{
+				id: "6C0C237720768C22"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "44F044907F315927"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+		}
+	]
+}

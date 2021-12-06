@@ -1,0 +1,649 @@
+{
+	id: "00000000000004B6"
+	group: ""
+	order_index: 3
+	filename: "kitchen"
+	title: "Kitchen"
+	icon: "pamhc2foodcore:cuttingboarditem"
+	subtitle: ["I would like to eat everything on the menu."]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004B8"
+			tasks: [{
+				id: "00000000000004B9"
+				type: "item"
+				item: "cookingforblockheads:corner"
+			}]
+			rewards: [{
+				id: "1D4E103F37AB8F69"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "Heat and Cool"
+			x: 5.5d
+			y: -2.5d
+			dependencies: [
+				"00000000000004C2"
+				"00000000000004E6"
+			]
+			id: "00000000000004BA"
+			tasks: [
+				{
+					id: "00000000000004BB"
+					type: "item"
+					item: "cookingforblockheads:preservation_chamber"
+				}
+				{
+					id: "00000000000004BC"
+					type: "item"
+					item: "cookingforblockheads:ice_unit"
+				}
+				{
+					id: "00000000000004BD"
+					type: "item"
+					item: "cookingforblockheads:heating_unit"
+				}
+			]
+			rewards: [{
+				id: "4A743F8C3C815061"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			dependencies: ["00000000000004B2"]
+			id: "00000000000004C0"
+			tasks: [{
+				id: "00000000000004C1"
+				type: "item"
+				item: "cookingforblockheads:no_filter_edition"
+			}]
+			rewards: [{
+				id: "5379A1D17EAD937C"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004C2"
+			tasks: [{
+				id: "00000000000004C3"
+				type: "item"
+				item: "cookingforblockheads:fridge"
+				count: 2L
+			}]
+			rewards: [{
+				id: "149AB7DF6CF17B06"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004C4"
+			tasks: [{
+				id: "00000000000004C5"
+				type: "item"
+				item: "cookingforblockheads:hanging_corner"
+			}]
+			rewards: [{
+				id: "0C11CB13697230F9"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["00000000000004B2"]
+			id: "00000000000004C6"
+			tasks: [{
+				id: "00000000000004C7"
+				type: "item"
+				item: "darkutils:charm_gluttony"
+			}]
+			rewards: [{
+				id: "4D26EE9D2276B3BD"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			dependencies: ["00000000000004B2"]
+			size: 2.0d
+			id: "00000000000004CA"
+			tasks: [{
+				id: "00000000000004CB"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+			rewards: [
+				{
+					id: "331BB578ECCE2BA4"
+					type: "loot"
+					table_id: 6279604713272709768L
+				}
+				{
+					id: "3719B090DE7F7113"
+					type: "loot"
+					table_id: 6279604713272709768L
+				}
+				{
+					id: "1B6C73C979D6EB5D"
+					type: "loot"
+					table_id: 6279604713272709768L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			dependencies: ["00000000000004B2"]
+			id: "00000000000004CC"
+			tasks: [{
+				id: "00000000000004CD"
+				type: "item"
+				item: "pamhc2foodcore:skilletitem"
+			}]
+			rewards: [{
+				id: "6503E0B2A749A476"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			dependencies: ["00000000000004B2"]
+			id: "00000000000004CE"
+			tasks: [{
+				id: "00000000000004CF"
+				type: "item"
+				item: "pamhc2foodcore:saucepanitem"
+			}]
+			rewards: [{
+				id: "3FE9A61D8B8C2E63"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["00000000000004B2"]
+			id: "00000000000004D0"
+			tasks: [{
+				id: "00000000000004D1"
+				type: "item"
+				item: "pamhc2foodcore:rolleritem"
+			}]
+			rewards: [{
+				id: "4D963D1DFDB4220F"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.5d
+			dependencies: ["00000000000004B2"]
+			id: "00000000000004D2"
+			tasks: [{
+				id: "00000000000004D3"
+				type: "item"
+				item: "pamhc2foodcore:potitem"
+			}]
+			rewards: [{
+				id: "3936DF6FD70BC34D"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			dependencies: ["00000000000004B2"]
+			id: "00000000000004D4"
+			tasks: [{
+				id: "00000000000004D5"
+				type: "item"
+				item: "pamhc2foodcore:mixingbowlitem"
+			}]
+			rewards: [{
+				id: "5A382C2E54FD1C64"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			dependencies: ["00000000000004B2"]
+			id: "00000000000004D6"
+			tasks: [{
+				id: "00000000000004D7"
+				type: "item"
+				item: "pamhc2foodcore:grinderitem"
+			}]
+			rewards: [{
+				id: "5B11220022CB274D"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			dependencies: ["00000000000004B2"]
+			id: "00000000000004D8"
+			tasks: [{
+				id: "00000000000004D9"
+				type: "item"
+				item: "pamhc2foodcore:juiceritem"
+			}]
+			rewards: [{
+				id: "379DA6C050187CEB"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			dependencies: ["00000000000004B2"]
+			id: "00000000000004DA"
+			tasks: [{
+				id: "00000000000004DB"
+				type: "item"
+				item: "pamhc2foodcore:cuttingboarditem"
+			}]
+			rewards: [{
+				id: "44E6DE8FDED9B175"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			dependencies: ["00000000000004B2"]
+			id: "00000000000004DC"
+			tasks: [{
+				id: "00000000000004DD"
+				type: "item"
+				item: "pamhc2foodcore:bakewareitem"
+			}]
+			rewards: [{
+				id: "3D2CC2672E7C5D81"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["00000000000004B2"]
+			size: 2.0d
+			id: "00000000000004DE"
+			tasks: [{
+				id: "00000000000004DF"
+				type: "item"
+				item: "cookingforblockheads:cooking_table"
+			}]
+			rewards: [{
+				id: "0D226D4F700C6980"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			dependencies: ["00000000000004B2"]
+			id: "00000000000004E0"
+			tasks: [{
+				id: "00000000000004E1"
+				type: "item"
+				item: "cookingforblockheads:cow_jar"
+			}]
+			rewards: [{
+				id: "6CCD415D27E6EEB9"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.5d
+			dependencies: ["00000000000004B2"]
+			id: "00000000000004E2"
+			tasks: [{
+				id: "00000000000004E3"
+				type: "item"
+				item: "cookingforblockheads:toaster"
+			}]
+			rewards: [{
+				id: "213CCAA9BDE67A77"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004E4"
+			tasks: [{
+				id: "00000000000004E5"
+				type: "item"
+				item: "cookingforblockheads:sink"
+			}]
+			rewards: [{
+				id: "1A9C87CF5DDC6F1B"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004E6"
+			tasks: [{
+				id: "00000000000004E7"
+				type: "item"
+				item: "cookingforblockheads:oven"
+			}]
+			rewards: [{
+				id: "3DBCC73E2A84E95E"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004E8"
+			tasks: [{
+				id: "00000000000004E9"
+				type: "item"
+				item: "cookingforblockheads:cabinet"
+			}]
+			rewards: [{
+				id: "70C2A4232285000C"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004EA"
+			tasks: [{
+				id: "00000000000004EB"
+				type: "item"
+				item: "cookingforblockheads:white_kitchen_floor"
+				count: 64L
+			}]
+			rewards: [{
+				id: "2907075A55753ED1"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004EC"
+			tasks: [{
+				id: "00000000000004ED"
+				type: "item"
+				item: "cookingforblockheads:counter"
+			}]
+			rewards: [{
+				id: "71DD534EBB098825"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004EE"
+			tasks: [{
+				id: "00000000000004EF"
+				type: "item"
+				item: "jellyfishing:krabby_patty"
+				count: 32L
+			}]
+			rewards: [{
+				id: "5E3083CE6DA0BB77"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004F0"
+			tasks: [{
+				id: "00000000000004F1"
+				type: "item"
+				item: "neapolitan:strawberry_cake"
+			}]
+			rewards: [{
+				id: "1F12041768450642"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004F2"
+			tasks: [{
+				id: "00000000000004F3"
+				type: "item"
+				item: "undergarden:gloomgourd_pie"
+				count: 32L
+			}]
+			rewards: [{
+				id: "44D95C2A2E55D6E6"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004F4"
+			tasks: [{
+				id: "00000000000004F5"
+				type: "item"
+				item: "pamhc2foodcore:friedchickenitem"
+				count: 32L
+			}]
+			rewards: [{
+				id: "472EDB579B4A6472"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004F6"
+			tasks: [{
+				id: "00000000000004F7"
+				type: "item"
+				item: "pamhc2foodextended:tacoitem"
+				count: 64L
+			}]
+			rewards: [{
+				id: "03C0940258DEF3A1"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004F8"
+			tasks: [{
+				id: "00000000000004F9"
+				type: "item"
+				item: "pamhc2foodextended:supremepizzaitem"
+				count: 64L
+			}]
+			rewards: [{
+				id: "16F1B9D251B866B4"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004FA"
+			tasks: [{
+				id: "00000000000004FB"
+				type: "item"
+				item: "buzzier_bees:glazed_porkchop"
+				count: 64L
+			}]
+			rewards: [{
+				id: "0622878915B7D576"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004FC"
+			tasks: [{
+				id: "00000000000004FD"
+				type: "item"
+				item: "jellyfishing:triple_gooberberry_sunrise"
+				count: 16L
+			}]
+			rewards: [{
+				id: "3C3C09DBE609A117"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004FE"
+			tasks: [{
+				id: "2D17CD9ECD76B0F7"
+				type: "item"
+				item: "pamhc2foodextended:sushiitem"
+				count: 16L
+			}]
+			rewards: [{
+				id: "727920828AC9F472"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["00000000000004DE"]
+			id: "0000000000000500"
+			tasks: [{
+				id: "0000000000000501"
+				type: "item"
+				item: "pamhc2foodcore:bakedvegetablemedlyitem"
+				count: 16L
+			}]
+			rewards: [{
+				id: "264F5BD17A75309D"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			dependencies: ["00000000000004DE"]
+			id: "0000000000000502"
+			tasks: [{
+				id: "0000000000000503"
+				type: "item"
+				item: "pamhc2foodcore:epicbaconitem"
+				count: 32L
+			}]
+			rewards: [{
+				id: "12C7DAFC140721C7"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["00000000000004DE"]
+			id: "0000000000000504"
+			tasks: [{
+				id: "0000000000000505"
+				type: "item"
+				item: "upgrade_aquatic:mulberry_bread"
+				count: 16L
+			}]
+			rewards: [{
+				id: "35106F1CA9BDDC05"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["00000000000004DE"]
+			id: "0000000000000506"
+			tasks: [{
+				id: "0000000000000507"
+				type: "item"
+				item: "rats:rat_burger"
+				count: 64L
+			}]
+			rewards: [{
+				id: "4C9603D1C3ED9D33"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+	]
+}

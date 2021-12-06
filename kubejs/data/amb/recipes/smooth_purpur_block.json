@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP",
+    "PP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:purpur_block"
+    }
+  },
+  "result": { "item": "amb:smooth_purpur_block", "count": 4 }
+}

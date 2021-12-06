@@ -1,0 +1,11 @@
+{
+  "name": "Glycerol",
+  "colors": [
+    "b3ccd9",
+    "6f8a99"
+  ],
+  "ingredient": {
+    "item": "pneumaticcraft:glycerol"
+  },
+  "inUltimateSingularity": true
+}

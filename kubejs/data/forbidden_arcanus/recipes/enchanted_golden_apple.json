@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "###",
+        "#X#",
+        "###"
+    
+    ],
+    
+    "key":
+    {
+        "#":
+        {
+            "item": "forge:ingots/arcane_gold"
+        },
+        "X":
+        {
+            "item": "minecraft:apple"
+        }
+    },
+    
+    "result":
+    {
+        "item": "minecraft:enchanted_golden_apple"
+    }
+}

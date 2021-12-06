@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B  ",
+    "B  ",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "tag": "forge:wither_bones"
+    }
+  },
+  "result": { "item": "architects_palette:withered_bone", "count": 3 }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "  B",
+    "BB "
+  ],
+  "key": {
+    "B": {
+      "tag": "forge:wither_bones"
+    }
+  },
+  "result": { "item": "tconstruct:necrotic_bone", "count": 3 }
+}

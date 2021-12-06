@@ -1,0 +1,343 @@
+{
+	id: "0000000000000842"
+	group: ""
+	order_index: 24
+	filename: "mahou_tsukai"
+	title: "Mahou Tsukai"
+	icon: {
+		id: "mahoutsukai:morgan"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+		ForgeCaps: {
+			Parent: {
+				MAHOUTSUKAI_ATTACK_CAP: 0.0d
+				MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+			}
+		}
+	}
+	subtitle: ["Magical and powerful power."]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: -2.5d
+			dependencies: ["0000000000000855"]
+			id: "0000000000000843"
+			tasks: [{
+				id: "0000000000000844"
+				type: "item"
+				item: {
+					id: "mahoutsukai:clarent"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 0.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "337FDBB780E3A049"
+				type: "item"
+				item: "minecraft:dragon_head"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["0000000000000855"]
+			id: "0000000000000845"
+			tasks: [{
+				id: "0000000000000846"
+				type: "item"
+				item: {
+					id: "mahoutsukai:morgan"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 0.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F5D33C88C986F2A"
+				type: "item"
+				item: {
+					id: "mahoutsukai:attuned_diamond"
+					Count: 1b
+					tag: {
+						MAHOUTSUKAI_GEM_STORED_MANA: 10000
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 10000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			dependencies: ["0000000000000855"]
+			id: "0000000000000847"
+			tasks: [{
+				id: "0000000000000848"
+				type: "item"
+				item: "mahoutsukai:mortar_and_pestle"
+			}]
+			rewards: [
+				{
+					id: "11254B5E2CDB26D7"
+					type: "item"
+					item: "mahoutsukai:powdered_diamond"
+				}
+				{
+					id: "74BD1983C5393CF6"
+					type: "item"
+					item: "mahoutsukai:powdered_emerald"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["0000000000000855"]
+			id: "0000000000000849"
+			tasks: [{
+				id: "000000000000084A"
+				type: "item"
+				item: {
+					id: "mahoutsukai:spatial_disorientation_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C9B45DFCB3F4D78"
+				type: "item"
+				item: {
+					id: "mahoutsukai:scroll_reality_marble"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["0000000000000855"]
+			id: "000000000000084B"
+			tasks: [{
+				id: "000000000000084C"
+				type: "item"
+				item: {
+					id: "mahoutsukai:mystic_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "10921D5187A659C2"
+				type: "item"
+				item: {
+					id: "mahoutsukai:scroll_boundary_raise_enclosure"
+					Count: 1b
+					tag: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["0000000000000855"]
+			id: "000000000000084D"
+			tasks: [{
+				id: "000000000000084E"
+				type: "item"
+				item: "mahoutsukai:mahoujin_projector"
+			}]
+			rewards: [{
+				id: "4DE82F1EF483F14B"
+				type: "item"
+				item: "mahoutsukai:mahoujin_projector"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["0000000000000855"]
+			id: "000000000000084F"
+			tasks: [{
+				id: "0000000000000850"
+				type: "item"
+				item: {
+					id: "mahoutsukai:attuned_diamond"
+					Count: 1b
+					tag: {
+						MAHOUTSUKAI_GEM_STORED_MANA: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5FED7F55F4F0D5B8"
+				type: "item"
+				item: {
+					id: "mahoutsukai:attuned_diamond"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["0000000000000855"]
+			id: "0000000000000851"
+			tasks: [{
+				id: "0000000000000852"
+				type: "item"
+				item: {
+					id: "mahoutsukai:mystic_code_first_sorcery"
+					Count: 1b
+					tag: {
+						capability: {
+							Size: 3
+							Items: [ ]
+						}
+						slot3: "SLOT EMPTY"
+						slot2: "SLOT EMPTY"
+						slot1: "SLOT EMPTY"
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: [ ]
+					}
+				}
+			}]
+			rewards: [{
+				id: "77E74B48CE2C7A4C"
+				type: "item"
+				item: "mahoutsukai:faecake"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["0000000000000855"]
+			id: "0000000000000853"
+			tasks: [{
+				id: "0000000000000854"
+				type: "item"
+				item: "mahoutsukai:spell_cloth"
+			}]
+			rewards: [{
+				id: "4E63953C30818374"
+				type: "item"
+				item: "mahoutsukai:faecake"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["000000000000083E"]
+			size: 2.0d
+			id: "0000000000000855"
+			tasks: [{
+				id: "0000000000000856"
+				type: "item"
+				item: "mahoutsukai:dagger"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			dependencies: ["0000000000000855"]
+			id: "0000000000000857"
+			tasks: [{
+				id: "0000000000000858"
+				type: "item"
+				item: {
+					id: "mahoutsukai:caliburn"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 0.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "56346B77C45204E2"
+				type: "item"
+				item: "mahoutsukai:murky_bucket"
+			}]
+		}
+		{
+			title: "How do I begin Mahou Tsukai ?"
+			icon: "create:brass_hand"
+			x: 2.0d
+			y: -4.0d
+			shape: "circle"
+			description: [
+				"To begin with Mahou Tsukai you need to bleed yourself with a dagger and draw Mahoujin."
+				"After that, you obtain 100 points of mana Mahou."
+				"{image:kubejs:textures/ftbquests/begin/mahou.png width:150 height:100 align:1}"
+				"There is a LOT of spells you can make and very powerful weapon, like Morgan."
+				"I recommend you to read closely the Mahou Tsukai Knowledge Compendium because I can't explain shortly what you can do, but the book can."
+			]
+			dependencies: ["000000000000083E"]
+			id: "634839847029B486"
+			tasks: [{
+				id: "4D137FF808B22FE9"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3C6CB26C6ACFF05C"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+		}
+	]
+}

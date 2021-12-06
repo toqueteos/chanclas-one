@@ -1,0 +1,6 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": { "item": "quark:deepslate" },
+  "result": [{ "item": "quark:cobbled_deepslate", "count": 1 }],
+  "energy_mod": 0.5
+}
