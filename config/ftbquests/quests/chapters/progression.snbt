@@ -14,18 +14,6 @@
 	subtitle: ["Where do I start ?"]
 	default_quest_shape: "gear"
 	default_hide_dependency_lines: false
-	images: [{
-		x: 13.0d
-		y: 0.5d
-		width: 2.0d
-		height: 2.0d
-		rotation: 0.0d
-		image: "kubejs:textures/ftbquests/begin/legendflowchart.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
 			title: "Bees Quests"
