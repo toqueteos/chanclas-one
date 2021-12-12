@@ -30,11 +30,11 @@
 		#This option will disable step assist added by other mods.
 		disableStepAssist = false
 		#This option will hide your shield unless you are holding a weapon.
-		hideShieldUnlessHoldingWeapon = true
+		hideShieldUnlessHoldingWeapon = false
 		#This prevents torches from being placed from your off hand if you have an empty main hand.
 		noOffhandTorchWithEmptyHand = false
 		#This option will let you climb ladders automatically by just looking upwards, rather than requiring a key to be held down.
-		autoClimbLadder = false
+		autoClimbLadder = true
 		#This prevents torches from being placed from your offhand if you have a block in your main hand.
 		noOffhandTorchWithBlock = true
 		#This prevents torches from being placed from your offhand at all.
