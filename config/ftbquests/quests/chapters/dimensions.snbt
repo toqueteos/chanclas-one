@@ -1,0 +1,35 @@
+{
+	id: "009EE4E6F1B7B8B6"
+	group: ""
+	order_index: 2
+	filename: "dimensions"
+	title: "Dimensions"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:grass_block"
+			x: 0.0d
+			y: 0.0d
+			id: "0EC01DC97C890478"
+			tasks: [{
+				id: "53858E5CF33B213B"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+		}
+		{
+			icon: "minecraft:nether_gold_ore"
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["0EC01DC97C890478"]
+			dependency_requirement: "one_completed"
+			id: "4DA830165608E9D1"
+			tasks: [{
+				id: "190FE99D20AE0247"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+	]
+}

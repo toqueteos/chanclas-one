@@ -1,7 +1,7 @@
 {
 	id: "5F1828D807F8D85C"
-	group: ""
-	order_index: 31
+	group: "6541C90A61073A8A"
+	order_index: 1
 	filename: "extended_crafting"
 	title: "Extended Crafting"
 	icon: "extendedcrafting:ultimate_table"
@@ -654,11 +654,7 @@
 			x: 0.0d
 			y: -3.0d
 			shape: "circle"
-			description: [
-				"To begin with Extended Crafting you need first to look how to make Black Iron. Yep, you're going to need several materials."
-				"{image:kubejs:textures/ftbquests/begin/powahpowah.png width:150 height:100 align:1}"
-				"You need to begin first Powah, Astral and Environmental Tech to get your Black Iron."
-			]
+			description: ["WIP: Explain how to get Black Iron."]
 			dependencies: ["28FAE67AF30700C8"]
 			id: "366A89D72C3624CE"
 			tasks: [{

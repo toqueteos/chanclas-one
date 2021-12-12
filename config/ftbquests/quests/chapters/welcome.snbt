@@ -4,8 +4,8 @@
 	order_index: 0
 	filename: "welcome"
 	title: "Welcome"
-	icon: "kubejs:sphere"
-	subtitle: ["Bonjour."]
+	icon: "minecraft:stone"
+	subtitle: ["Start here"]
 	default_quest_shape: "gear"
 	default_hide_dependency_lines: false
 	images: [{
@@ -44,7 +44,7 @@
 		{
 			icon: "ftbquests:book"
 			x: -2.0d
-			y: 0.5d
+			y: 0.0d
 			shape: "circle"
 			description: [
 				"Like I said, this modpack doesn't force you to play around with the quests."
@@ -70,7 +70,7 @@
 			title: "Creative Quests"
 			icon: "thermal:lock"
 			x: 2.0d
-			y: 0.5d
+			y: 0.0d
 			shape: "diamond"
 			description: ["To unlock the creative items page you must complete the \"end of ...\" quests."]
 			dependencies: ["2B04C39F8061A391"]
@@ -83,7 +83,7 @@
 		{
 			icon: "jellyfishing:triple_gooberberry_sunrise"
 			x: -2.0d
-			y: -0.5d
+			y: -1.0d
 			description: [
 				"To share your quests with your friends, you need to create a team."
 				""
@@ -113,7 +113,7 @@
 			title: "Ores Tooltips"
 			icon: "minecraft:diamond_ore"
 			x: 2.0d
-			y: -0.5d
+			y: -1.0d
 			shape: "octagon"
 			description: [
 				"You'll find in Tooltips information on the Y level, where the ores spawn in the overworld!"

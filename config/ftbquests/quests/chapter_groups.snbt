@@ -1,3 +1,12 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "7997747542350601", title: "Adventure" }
+		{ id: "6B8F1B870D3A8D3C", title: "Miscellaneous" }
+		{ id: "5425C6996CF03011", title: "Storage" }
+		{ id: "047570AF569E5304", title: "Power Generation" }
+		{ id: "26830001F0816168", title: "Resource farms" }
+		{ id: "2EE5148E0491A7AD", title: "Tech" }
+		{ id: "6554A646FFCDEA0B", title: "Magic" }
+		{ id: "6541C90A61073A8A", title: "Endgame" }
+	]
 }

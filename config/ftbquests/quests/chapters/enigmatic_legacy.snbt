@@ -1,7 +1,7 @@
 {
 	id: "000000000000050C"
-	group: ""
-	order_index: 9
+	group: "26830001F0816168"
+	order_index: 0
 	filename: "enigmatic_legacy"
 	title: "Environmental Tech"
 	icon: {
@@ -11,7 +11,7 @@
 			colors: { }
 		}
 	}
-	subtitle: ["It's good for the environment, or not."]
+	subtitle: ["Multiblock lasers to get ores"]
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	images: [

@@ -1,7 +1,7 @@
 {
 	id: "2E6F230CBBDFCC64"
-	group: ""
-	order_index: 25
+	group: "7997747542350601"
+	order_index: 0
 	filename: "rats"
 	title: "Rats"
 	icon: { id: "rats:cheese", Count: 64b }

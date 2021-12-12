@@ -1,7 +1,7 @@
 {
 	id: "0000000000000131"
-	group: ""
-	order_index: 16
+	group: "26830001F0816168"
+	order_index: 3
 	filename: "mystical_agriculture"
 	title: "Mystical Agriculture"
 	icon: { id: "mysticalagriculture:inferium_essence", Count: 64b }
