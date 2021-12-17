@@ -17,8 +17,6 @@ events.listen('item.tags', function (e) {
   e.add('forge:storage_blocks/tungsten', 'kubejs:tungsten_block')
   //Beehives
   e.add('minecraft:beehives', ['buzzier_bees:spruce_beehive', 'buzzier_bees:birch_beehive', 'buzzier_bees:jungle_beehive', 'buzzier_bees:acacia_beehive', 'buzzier_bees:dark_oak_beehive', 'buzzier_bees:crimson_beehive', 'buzzier_bees:warped_beehive', 'endergetic:poise_beehive', 'endergetic:puffbug_hive', 'upgrade_aquatic:river_beehive', 'upgrade_aquatic:driftwood_beehive'])
-  e.remove('twilightforest:portal/activator', '#forge:gems/diamond')  
-  e.add('twilightforest:portal/activator', 'rats:psionic_rat_brain')
   e.add('forge:ores/gold', ['byg:brimstone_nether_gold_ore', 'byg:blue_nether_gold_ore'])
   e.add('forge:ores/quartz', 'byg:brimstone_nether_quartz_ore')
   e.add('forge:ores/quartz', 'byg:blue_nether_quartz_ore')
