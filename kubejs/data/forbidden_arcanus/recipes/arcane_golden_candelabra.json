@@ -1,26 +1,11 @@
 {
-    "type": "minecraft:crafting_shaped",
-    
-    "pattern":
-    [
-        "# #",
-        "###",
-        " # "
-    
-    ],
-    
-    "key":
-    {
-        "#":
-        {
-            "item": "forge:ingots/arcane_gold"
-        }
-        
-    },
-    
-    "result":
-    {
-        "item": "forbidden_arcanus:arcane_golden_candelabra",
-        "count": 3
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["A A", "AAA", " A "],
+  "key": {
+    "A": { "tag": "forge:ingots/arcane_gold" }
+  },
+  "result": {
+    "item": "forbidden_arcanus:arcane_golden_candelabra",
+    "count": 3
+  }
 }

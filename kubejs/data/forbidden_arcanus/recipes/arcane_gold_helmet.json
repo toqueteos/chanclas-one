@@ -1,24 +1,13 @@
 {
     "type": "minecraft:crafting_shaped",
-    
-    "pattern":
-    [
-        "###",
-        "# #"
-    
+    "pattern": [
+        "AAA",
+        "A A"
     ],
-    
-    "key":
-    { 
-        "#":
-        {
-            "item": "forge:ingots/arcane_gold"
-        }
-        
+    "key": { 
+        "A": { "tag": "forge:ingots/arcane_gold" }
     },
-    
-    "result":
-    {
+    "result": {
         "item": "forbidden_arcanus:arcane_gold_helmet"
     }
 }

@@ -1,37 +1,17 @@
 {
-    "type": "minecraft:crafting_shaped",
-    
-    "pattern":
-    [
-        "NDN",
-        "GAG",
-        "NDN"
-    
-    ],
-    
-    "key":
-    {
-        "N":
-        {
-            "item": "forge:nuggets/arcane_gold"
-        },  
-        "A":
-        {
-            "item": "forbidden_arcanus:candle"
-        },
-        "D":
-        {
-            "item": "forbidden_arcanus:darkstone"
-        },
-        "G":
-        {
-            "item": "forge:ingots/arcane_gold"
-        }
-        
-    },
-    
-    "result":
-    {
-        "item": "forbidden_arcanus:candle_lamp"
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "NDN",
+      "GCG",
+      "NDN"
+  ],
+  "key": {
+    "N": { "tag": "forge:nuggets/arcane_gold" },
+    "C": { "item": "forbidden_arcanus:candle" },
+    "D": { "item": "forbidden_arcanus:darkstone" },
+    "G": { "tag": "forge:ingots/arcane_gold" }
+  },
+  "result": {
+    "item": "forbidden_arcanus:candle_lamp"
+  }
 }

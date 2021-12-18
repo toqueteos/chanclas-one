@@ -6,9 +6,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "forbidden_arcanus:ender_pearl_fragment"
-    }
+    "#": { "item": "forbidden_arcanus:ender_pearl_fragment" }
   },
   "result": {
     "item": "minecraft:ender_pearl"

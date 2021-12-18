@@ -6,18 +6,10 @@
     "AEA"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:string"
-    },
-    "X": {
-      "item": "minecraft:nether_star"
-    },
-    "A": {
-      "item": "forge:ingots/arcane_gold"
-    },
-    "E": {
-      "item": "minecraft:ender_eye"
-    }
+    "#": { "item": "minecraft:string" },
+    "X": { "item": "minecraft:nether_star" },
+    "A": { "tag": "forge:ingots/arcane_gold" },
+    "E": { "item": "minecraft:ender_eye" }
   },
   "result": {
     "item": "forbidden_arcanus:spectral_eye_amulet"

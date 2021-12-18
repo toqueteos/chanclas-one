@@ -1,34 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
-    
-    "pattern":
-    [
+    "pattern": [
         "#X#",
         "XDX",
         "#X#"
     ],
-    
-    "key":
-    {
-        "#":
-        {
-            "item": "forge:ingots/arcane_gold"
-        },
-        
-        "X":
-        {
-            "item": "forbidden_arcanus:runic_chiseled_polished_darkstone"
-        },
-        
-        "D":
-        {
-            "item": "forbidden_arcanus:dark_matter"
-        }
-        
+    "key": {
+        "#": { "tag": "forge:ingots/arcane_gold" },
+        "X": { "item": "forbidden_arcanus:runic_chiseled_polished_darkstone" },
+        "D": { "item": "forbidden_arcanus:dark_matter" }
     },
-    
-    "result":
-    {
+    "result": {
         "item": "forbidden_arcanus:runic_tenebris_frame"
     }
 }

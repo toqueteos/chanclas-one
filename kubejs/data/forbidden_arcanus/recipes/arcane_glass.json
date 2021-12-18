@@ -1,31 +1,12 @@
 {
-    "type": "minecraft:crafting_shaped",
-    
-    "pattern":
-    [
-        "GGG",
-        "GAG",
-        "GGG"
-    
-    ],
-    
-    "key":
-    {
-        "A":
-        {
-            "item": "forge:ingots/arcane_gold"
-        },
-        
-        "G":
-        {
-            "item": "minecraft:glass"
-        }
-        
-    },
-    
-    "result":
-    {
-        "item": "forbidden_arcanus:arcane_glass",
-        "count": 8
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["GGG", "GAG", "GGG"],
+  "key": {
+    "A": { "tag": "forge:ingots/arcane_gold" },
+    "G": { "item": "minecraft:glass" }
+  },
+  "result": {
+    "item": "forbidden_arcanus:arcane_glass",
+    "count": 8
+  }
 }

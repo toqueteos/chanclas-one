@@ -1,37 +1,17 @@
 {
     "type": "minecraft:crafting_shaped",
-    
-    "pattern":
-    [
+    "pattern": [
         "SAA",
         " EA",
         "E F"
-    
     ],
-    
-    "key":
-    {
-        "S":
-        {
-            "item": "minecraft:slime_ball"
-        },
-        "A":
-        {
-            "item": "forge:ingots/arcane_gold"
-        },
-        "F":
-        {
-            "item": "forbidden_arcanus:golden_feather"
-        },
-        "E":
-        {
-            "item": "forbidden_arcanus:edelwood_stick"
-        }
-        
+    "key": {
+        "S": { "item": "minecraft:slime_ball" },
+        "A": { "tag": "forge:ingots/arcane_gold" },
+        "F": { "item": "forbidden_arcanus:golden_feather" },
+        "E": { "item": "forbidden_arcanus:edelwood_stick" }
     },
-    
-    "result":
-    {
+    "result": {
         "item": "forbidden_arcanus:slimec_pickaxe"
     }
 }

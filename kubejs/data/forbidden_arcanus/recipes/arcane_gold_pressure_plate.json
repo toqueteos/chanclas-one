@@ -1,23 +1,10 @@
 {
-    "type": "minecraft:crafting_shaped",
-    
-    "pattern":
-    [
-        "##"
-    
-    ],
-    
-    "key":
-    {
-        "#":
-        {
-            "item": "forge:ingots/arcane_gold"
-        }
-        
-    },
-    
-    "result":
-    {
-        "item": "forbidden_arcanus:arcane_gold_pressure_plate"
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["AA"],
+  "key": {
+    "A": { "tag": "forge:ingots/arcane_gold" }
+  },
+  "result": {
+    "item": "forbidden_arcanus:arcane_gold_pressure_plate"
+  }
 }
