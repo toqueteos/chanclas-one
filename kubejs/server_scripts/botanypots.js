@@ -55,11 +55,11 @@ events.listen('recipes', function (e) {
     })
 
     //soil
-    function soil(item, categorie, growth) {
+    function soil(item, category, growth) {
         e.recipes.botanypots.soil({
             input: { item: item },
-            display: { block: item },
-            categories: categorie,
+            display: { block: item, properties: { moisture: 7 } },
+            categories: category,
             growthModifier: growth
         })
     }
