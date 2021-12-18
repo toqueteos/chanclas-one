@@ -81,6 +81,18 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: 10.0d
+			y: 8.0d
+			width: 9.0d
+			height: 6.5d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/dim.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
@@ -762,8 +774,8 @@
 		}
 		{
 			title: "Did you mention Physics?"
-			x: 7.0d
-			y: 10.0d
+			x: 7.5d
+			y: 8.0d
 			subtitle: "Honey, I Shrunk the Kids!"
 			description: [
 				"The Personal Shrinking Device allows you to enter and exit your compact machine."
@@ -793,8 +805,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 10.0d
+			x: 9.0d
+			y: 8.0d
 			description: ["The Tiny Compact Machine is a 3x3x3 space."]
 			dependencies: ["0D78FF79D69B3596"]
 			id: "2A3C834BAC2D66A4"
@@ -811,7 +823,7 @@
 		}
 		{
 			x: 9.0d
-			y: 10.0d
+			y: 9.5d
 			description: ["The Small Compact Machine is a 5x5x5 space."]
 			dependencies: ["2A3C834BAC2D66A4"]
 			id: "67228E1120640FAB"
@@ -827,8 +839,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 10.0d
+			x: 10.5d
+			y: 9.5d
 			description: ["The Normal Compact Machine is a 7x7x7 space."]
 			dependencies: ["67228E1120640FAB"]
 			id: "12340D5B78680D32"
@@ -844,8 +856,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 10.0d
+			x: 10.5d
+			y: 8.0d
 			description: ["The Large Compact Machine is a 9x9x9 space."]
 			dependencies: ["12340D5B78680D32"]
 			id: "7CDACF0CCDC79EA3"
@@ -862,7 +874,7 @@
 		}
 		{
 			x: 12.0d
-			y: 10.0d
+			y: 8.0d
 			description: ["The Giant Compact Machine is a 11x11x11 space."]
 			dependencies: ["7CDACF0CCDC79EA3"]
 			id: "0F324A4E61CB9053"
@@ -878,8 +890,8 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: 10.0d
+			x: 12.0d
+			y: 9.5d
 			description: ["The Maximum Compact Machine is a 13x13x13 space."]
 			dependencies: ["0F324A4E61CB9053"]
 			id: "349A652CF43F8376"
