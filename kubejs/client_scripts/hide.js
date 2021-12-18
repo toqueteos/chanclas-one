@@ -224,7 +224,6 @@ events.listen('jei.hide.items', function (e) {
     'mekanism:nugget_copper',
     'mekanism:nugget_lead',
     'mekanism:nugget_tin',
-    'mekanism:sawdust',
     'mekanism:tin_ore',
     'mekanism:uranium_ore',
     'metalbarrels:copper_to_crystal',
@@ -255,7 +254,6 @@ events.listen('jei.hide.items', function (e) {
     'metalbarrels:wood_to_netherite',
     'metalbarrels:wood_to_obsidian',
     'metalbarrels:wood_to_silver',
-    'minecraft:lectern',
     'mysticalagriculture:chrome_essence',
     'mysticalagriculture:chrome_seeds',
     'mysticalagriculture:experience_capsule',
@@ -287,27 +285,6 @@ events.listen('jei.hide.items', function (e) {
     'overloaded:true_infinite_capacitor',
     'overloaded:true_infinite_tank',
     'pneumaticcraft:wheat_flour',
-    // 'projecte:collector_mk1',
-    // 'projecte:collector_mk2',
-    // 'projecte:collector_mk3',
-    // 'projecte:condenser_mk1',
-    // 'projecte:condenser_mk2',
-    // 'projecte:philosophers_stone_alt',
-    // 'projecte:relay_mk1',
-    // 'projecte:relay_mk2',
-    // 'projecte:relay_mk3',
-    // 'projecte:repair_talisman_alt',
-    // 'projecte:tome',
-    // 'projectex:collector/mk1_alt',
-    // 'projectex:collector/mk2_alt',
-    // 'projectex:collector/mk3_alt',
-    // 'projectex:compressed_refined_link',
-    // 'projectex:personal_link',
-    // 'projectex:refined_link',
-    // 'projectex:relay/mk1_alt',
-    // 'projectex:relay/mk2_alt',
-    // 'projectex:relay/mk3_alt',
-    // 'projectex:tome',
     'quark:apple_crate',
     'quark:beetroot_crate',
     'quark:carrot_crate',
@@ -329,16 +306,6 @@ events.listen('jei.hide.items', function (e) {
     /tconstruct:tinker_station/,
     /tconstruct:crafting_station/
   ]);
-
-  // var projecteEnergyGen = ['basic', 'dark', 'red', 'magenta', 'pink', 'purple', 'violet', 'blue', 'cyan', 'green', 'lime', 'yellow', 'orange', 'white', 'fading', 'final'];
-  // projecteEnergyGen.forEach(name => {
-  //   e.hide([
-  //     'projectex:'+name+'_collector',
-  //     'projectex:'+name+'_compressed_collector',
-  //     'projectex:'+name+'_relay',
-  //     'projectex:'+name+'_power_flower'
-  //   ]);
-  // });
 })
 
 onEvent('jei.add.items', e => {
