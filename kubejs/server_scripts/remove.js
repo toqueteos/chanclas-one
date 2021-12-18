@@ -410,7 +410,6 @@ events.listen("recipes", function (e) {
   e.remove({ id: "quark:tweaks/smelting/bone_meal_utility" });
   e.remove({ id: "rats:dragon_wing_vanilla" });
   e.remove({ id: "rats:rat_upgrade_dragon_vanilla" });
-  e.remove({ id: "sonicraft:gold_nugget_to_ring" });
   e.remove({ id: "sophisticatedbackpacks:tank_upgrade" });
   e.remove({ id: "supplementaries:candelabra_recipe_3" });
   e.remove({ id: "supplementaries:candle_holder_recipe_3" });
