@@ -1360,7 +1360,7 @@
 			x: 1.0d
 			y: -1.0d
 			shape: "circle"
-			description: ["You are going to need some Slime balls, Gold ingots, Diamonds and Quartz. Get ready to go to the Nether."]
+			description: ["You are going to need some Slime balls, Gold ingots, Diamonds and Quartz. Time to dip your toes in the Nether."]
 			dependencies: ["0000000000000129"]
 			id: "362E93B882E77401"
 			tasks: [{

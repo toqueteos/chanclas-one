@@ -2114,30 +2114,6 @@
 			}]
 		}
 		{
-			title: "How do I begin Immersive Engineering ?"
-			icon: "create:brass_hand"
-			x: 6.0d
-			y: -8.5d
-			shape: "circle"
-			description: [
-				"To make your first Metal Press you need to get a plate with Create. It's very simple and cheap."
-				"{image:kubejs:textures/ftbquests/begin/immersive.png width:150 height:100 align:1}"
-				"At minimum, place one Water Wheel, connect it to a Mechanical Press and toss your ingot underneath."
-				"You can use a mechanical belt, a depot or just nothing, it works the same."
-			]
-			dependencies: ["0000000000000692"]
-			id: "59CE179CA62BD2A4"
-			tasks: [{
-				id: "58E41877314E8317"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "3EACC3CED97BA741"
-				type: "item"
-				item: "mob_grinding_utils:solid_xp_baby"
-			}]
-		}
-		{
 			x: 3.5d
 			y: -4.5d
 			dependencies: ["00000000000006A4"]

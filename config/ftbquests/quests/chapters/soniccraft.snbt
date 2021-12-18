@@ -171,7 +171,6 @@
 			title: "Green Hill Zone"
 			x: -3.0d
 			y: -6.5d
-			dependencies: ["6554ECBA503F69C5"]
 			id: "494F10C5755FD6CC"
 			tasks: [{
 				id: "7B13605EA8B9258F"
@@ -235,7 +234,6 @@
 			title: "Spring Yard Zone"
 			x: 5.5d
 			y: -6.0d
-			dependencies: ["6554ECBA503F69C5"]
 			id: "6ED963EC6F349954"
 			tasks: [{
 				id: "57EA65287110D578"
@@ -348,7 +346,6 @@
 			title: "Star Light Zone"
 			x: 9.0d
 			y: -6.5d
-			dependencies: ["6554ECBA503F69C5"]
 			id: "7674CEC3AF526A8D"
 			tasks: [{
 				id: "049EC513997824DA"
@@ -416,7 +413,6 @@
 			title: "Marble Zone"
 			x: 1.5d
 			y: -6.0d
-			dependencies: ["6554ECBA503F69C5"]
 			id: "2D8754056BC749D5"
 			tasks: [{
 				id: "1700A1BF19793035"
@@ -541,7 +537,6 @@
 			title: "Scrap Brain Zone"
 			x: 13.5d
 			y: -6.0d
-			dependencies: ["6554ECBA503F69C5"]
 			id: "128E5BACD1EF54B0"
 			tasks: [{
 				id: "22369BD6CBC2325D"
@@ -641,7 +636,6 @@
 			title: "Chemical Plant Zone"
 			x: -2.5d
 			y: -3.0d
-			dependencies: ["6554ECBA503F69C5"]
 			id: "078FB591859C3612"
 			tasks: [{
 				id: "161369FAAEE13C65"
@@ -741,7 +735,6 @@
 			title: "Casino Night Zone"
 			x: 5.0d
 			y: -3.5d
-			dependencies: ["6554ECBA503F69C5"]
 			id: "3DAEEFA9966EB3CD"
 			tasks: [{
 				id: "50DD1BE6D56CC5ED"
@@ -875,7 +868,6 @@
 			title: "Aquatic Ruin Zone"
 			x: 1.5d
 			y: -3.0d
-			dependencies: ["6554ECBA503F69C5"]
 			id: "4E85B4E6C5590AD9"
 			tasks: [{
 				id: "4D26B2D8A6B9C15D"
@@ -926,7 +918,6 @@
 			title: "Studiopolis Zone"
 			x: 9.5d
 			y: -3.0d
-			dependencies: ["6554ECBA503F69C5"]
 			id: "1AF2A494B0F04CC3"
 			tasks: [{
 				id: "1D36349668EDE1B9"
@@ -1070,7 +1061,6 @@
 			title: "Death Egg Zone"
 			x: 13.5d
 			y: -3.0d
-			dependencies: ["6554ECBA503F69C5"]
 			id: "140D704A9ECF2DEC"
 			tasks: [{
 				id: "66CD4EF9A8D9A262"
@@ -1166,7 +1156,6 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			dependencies: ["6554ECBA503F69C5"]
 			id: "2CF3DDE03BD7A056"
 			tasks: [{
 				id: "69ED01F841CBFED3"
@@ -1593,7 +1582,6 @@
 		{
 			x: 10.0d
 			y: 0.5d
-			dependencies: ["6554ECBA503F69C5"]
 			id: "5C71DF76B0964C87"
 			tasks: [{
 				id: "2E81F4F117CD5C39"
@@ -1609,7 +1597,6 @@
 		{
 			x: 10.0d
 			y: -0.5d
-			dependencies: ["6554ECBA503F69C5"]
 			id: "3E16BC544BAA2FF6"
 			tasks: [
 				{
@@ -1643,7 +1630,6 @@
 		{
 			x: 11.0d
 			y: 0.0d
-			dependencies: ["6554ECBA503F69C5"]
 			id: "3FCA26698B8611B9"
 			tasks: [{
 				id: "444B84EB80DB5970"
@@ -1660,7 +1646,6 @@
 		{
 			x: 6.5d
 			y: -8.25d
-			dependencies: ["6554ECBA503F69C5"]
 			size: 1.5d
 			id: "781E153A4F3F5A49"
 			tasks: [{
@@ -1702,7 +1687,6 @@
 		{
 			x: 5.5d
 			y: -10.5d
-			dependencies: ["677602AFB00218D2"]
 			id: "2B4D0D312F874CC1"
 			tasks: [{
 				id: "055AC9DCFA3CFAE3"
@@ -1717,56 +1701,9 @@
 			}]
 		}
 		{
-			title: "Ring Maker"
-			x: 6.5d
-			y: -11.0d
-			dependencies: ["6554ECBA503F69C5"]
-			id: "677602AFB00218D2"
-			tasks: [
-				{
-					id: "60990A8A22F772EE"
-					type: "item"
-					item: "masterfulmachinery:sonicrings_controller"
-				}
-				{
-					id: "1D288C702359B05D"
-					type: "item"
-					item: "masterfulmachinery:sonicrings_ringenergy_port_energy_input"
-				}
-				{
-					id: "66EAE6A1AC71E8F3"
-					type: "item"
-					item: "masterfulmachinery:sonicrings_ringitem_port_items_input"
-				}
-				{
-					id: "0E0E53807CB66041"
-					type: "item"
-					item: "masterfulmachinery:sonicrings_ringitem_port_items_output"
-				}
-				{
-					id: "72FF06A9521412CB"
-					type: "item"
-					item: "minecraft:gold_block"
-					count: 12L
-				}
-				{
-					id: "1F097A120EE9DE38"
-					type: "item"
-					item: "tconstruct:light_blue_clear_stained_glass_pane"
-					count: 21L
-				}
-			]
-			rewards: [{
-				id: "0C976436EDAFCFB3"
-				type: "item"
-				item: "compressium:gold_1"
-			}]
-		}
-		{
 			title: "Press Garden Zone"
 			x: 13.5d
 			y: -9.0d
-			dependencies: ["6554ECBA503F69C5"]
 			id: "003C85E128FDC8BD"
 			tasks: [{
 				id: "445102C77C2AA6CC"
@@ -1863,7 +1800,6 @@
 			title: "Emerald Hill Zone"
 			x: -2.5d
 			y: -8.5d
-			dependencies: ["6554ECBA503F69C5"]
 			id: "5107F2D324A54D9D"
 			tasks: [{
 				id: "0F6296F9B493F03A"
@@ -1915,29 +1851,6 @@
 				type: "item"
 				item: "sonicraft:gold_ring"
 				count: 32
-			}]
-		}
-		{
-			title: "How do I begin SoniCraft ?"
-			icon: "create:brass_hand"
-			x: 6.5d
-			y: -14.0d
-			shape: "circle"
-			description: [
-				"To go in the beautiful world of SoniCraft you need to go through first the Twilight Forest, because you need to craft the Ring Maker to get your first Sonic ring."
-				"When you get your first ring, you can craft a Flint and Ring to open the SoniCraft portal !"
-				"{image:kubejs:textures/ftbquests/begin/sonicraftportal.png width:150 height:100 align:1}"
-			]
-			dependencies: ["6554ECBA503F69C5"]
-			id: "1BBA0E1448E35A6B"
-			tasks: [{
-				id: "004A2CC8090CA012"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "46FB22B0C3066219"
-				type: "item"
-				item: "mob_grinding_utils:solid_xp_baby"
 			}]
 		}
 	]

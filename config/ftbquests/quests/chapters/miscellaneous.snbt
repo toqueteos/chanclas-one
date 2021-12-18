@@ -3,7 +3,7 @@
 	group: "6B8F1B870D3A8D3C"
 	order_index: 0
 	filename: "miscellaneous"
-	title: "Miscellaneous"
+	title: "Random AND Useful"
 	icon: "ftbquests:book"
 	subtitle: ["This is madness !"]
 	default_quest_shape: "hexagon"
@@ -81,54 +81,6 @@
 			dev: false
 			corner: false
 		}
-		{
-			x: 10.0d
-			y: 8.0d
-			width: 9.0d
-			height: 6.5d
-			rotation: 0.0d
-			image: "kubejs:textures/ftbquests/dim.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 7.5d
-			y: 8.5d
-			width: 2.0d
-			height: 2.5d
-			rotation: 0.0d
-			image: "kubejs:textures/ftbquests/dimdung.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 10.0d
-			y: 8.5d
-			width: 2.0d
-			height: 2.5d
-			rotation: 0.0d
-			image: "kubejs:textures/ftbquests/undergarden.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 12.5d
-			y: 8.5d
-			width: 2.0d
-			height: 2.5d
-			rotation: 0.0d
-			image: "kubejs:textures/ftbquests/lostcity.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
 	]
 	quests: [
 		{
@@ -136,7 +88,6 @@
 			x: 6.5d
 			y: 1.5d
 			description: ["The Brazier allows you to block hostile mob spawn."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "18634C2C6A6EE7C7"
 			tasks: [
 				{
@@ -190,7 +141,6 @@
 			x: -2.0d
 			y: 8.0d
 			description: ["The red heart is dropped by any mobs."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "13941EAF09F3B97A"
 			tasks: [{
 				id: "424CF6A6DB63F94F"
@@ -266,7 +216,6 @@
 				""
 				"Aim the staff at the travel anchor to teleport onto it."
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "399CF4713AC8AF32"
 			tasks: [
 				{
@@ -293,7 +242,6 @@
 				"Botany pot can grow all kind of crops and saplings."
 				"The hopper version is perfect to automate farming what you put in your pot."
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "7DF601A022C4C64E"
 			tasks: [
 				{
@@ -341,7 +289,6 @@
 				""
 				"The Template Manager provides a visual preview of the build whilst also providing the ability to copy new Templates into the Copy Paste Gadget."
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "63F76E62E931EC6D"
 			tasks: [
 				{
@@ -424,7 +371,6 @@
 			x: -7.0d
 			y: -3.5d
 			description: ["You can place the dock in world to interact with it, for example, with an external storage."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "05D549D52CF26D82"
 			tasks: [{
 				id: "19D2B7B1BD04658F"
@@ -441,7 +387,6 @@
 			x: -1.5d
 			y: -3.5d
 			description: ["You can place the dock in world to interact with it, for example, with an external storage."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "10057A87053D9131"
 			tasks: [{
 				id: "469C3C847B996763"
@@ -786,7 +731,6 @@
 			x: 3.0d
 			y: -1.5d
 			description: ["A hopper with a filter."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "6498A9ABCDB04C18"
 			tasks: [{
 				id: "440B9C7F1717784F"
@@ -804,7 +748,6 @@
 			x: 6.0d
 			y: -1.5d
 			description: ["You can make all kinds of sandwiches and food bowls."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "34733BC52802B305"
 			tasks: [{
 				id: "7A6C04E96133C7CC"
@@ -818,47 +761,6 @@
 			}]
 		}
 		{
-			title: "Dimensional Dungeons"
-			icon: "dimdungeons:block_key_charger"
-			x: 7.5d
-			y: 7.0d
-			description: [
-				"A blank key cannot be used to enter a dungeon. A newly crafted key must first be used in an 'activation ritual' which will inscribe the name and location of a randomly generated dungeon onto the key."
-				"This action will require you to bring the key in the Stronghold and use it on the top of an End Portal Frame."
-			]
-			dependencies: ["1F534501B689CBB4"]
-			id: "247308E0062867EB"
-			tasks: [
-				{
-					id: "4FCC35A18296D09D"
-					type: "item"
-					item: "dimdungeons:item_portal_key"
-				}
-				{
-					id: "0AD721BD7954EA13"
-					type: "item"
-					item: "dimdungeons:block_gilded_portal"
-					count: 2L
-				}
-				{
-					id: "6E4DAB7B74107FF3"
-					type: "item"
-					item: "dimdungeons:block_portal_keyhole"
-				}
-			]
-			rewards: [{
-				id: "6E47EDC4E7BE6A94"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "dimdungeons:guide_book"
-					}
-				}
-			}]
-		}
-		{
 			title: "Did you mention Physics?"
 			x: 7.0d
 			y: 10.0d
@@ -869,7 +771,6 @@
 				"Field Projectors are used to miniaturize your compact machines and other craft."
 				"You don't have to make the biggest size, just a 5x5 is sufficient for all crafts."
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "0D78FF79D69B3596"
 			tasks: [
 				{
@@ -1001,7 +902,6 @@
 				"A classic builder's wand."
 				"To undo your placement, you need to shift+ctrl+right-click. You can undo three time."
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "0E4B5AC376DA9D23"
 			tasks: [
 				{
@@ -1038,7 +938,6 @@
 			x: 4.5d
 			y: 1.5d
 			description: ["The Ability Bottle is used to stored and reused your ability previously get with totems."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "6D22BF7E2105F734"
 			tasks: [{
 				id: "64A3BE8CAEE6503B"
@@ -1067,7 +966,6 @@
 				""
 				"If you play on server, you can privatize your chests and tanks by using a diamond on it."
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "1F0EDC68C1BAB021"
 			tasks: [
 				{
@@ -1097,7 +995,6 @@
 			x: 6.5d
 			y: -0.5d
 			description: ["The Scanner provides a scanner item that can survey the nearby area for points of interest. Scan results are visualized for a short while in a clean and readable manner, either as in-world highlights or appropriately positioned overlays."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "35DAC14A7BA14EE3"
 			tasks: [
 				{
@@ -1118,44 +1015,8 @@
 			}]
 		}
 		{
-			x: 8.75d
-			y: 7.0d
-			subtitle: "Diggy Diggy Hole!"
-			description: ["Eternal day and no caves."]
-			dependencies: ["1F534501B689CBB4"]
-			id: "60E5765FE4FDFC45"
-			tasks: [{
-				id: "3769B231A01C3EA4"
-				type: "item"
-				item: "jamd:mine_portal_block"
-			}]
-			rewards: [{
-				id: "421DF2B03793D674"
-				type: "loot"
-				table_id: 6279604713272709768L
-			}]
-		}
-		{
-			x: 11.25d
-			y: 7.0d
-			description: ["Eternal day in the void."]
-			dependencies: ["1F534501B689CBB4"]
-			id: "3727827CF1E483EC"
-			tasks: [{
-				id: "4541C1F47A65BDE8"
-				type: "item"
-				item: "javd:portal_block"
-			}]
-			rewards: [{
-				id: "266FCABD3C361E22"
-				type: "loot"
-				table_id: 6279604713272709768L
-			}]
-		}
-		{
 			x: 2.0d
 			y: 2.5d
-			dependencies: ["1F534501B689CBB4"]
 			id: "17E3F7F20601ADE1"
 			tasks: [{
 				id: "01A837070724CC98"
@@ -1256,7 +1117,6 @@
 			x: -6.0d
 			y: 0.0d
 			description: ["The copper Chest has 45 slots."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "285B6AF07DEB680A"
 			tasks: [{
 				id: "67702672E913A183"
@@ -1378,7 +1238,6 @@
 			x: 5.5d
 			y: -0.5d
 			description: ["Item Collectors adds Collectors which collect items in a specified range! Item Collectors range can be changed and items can be whitelisted or blacklisted!"]
-			dependencies: ["1F534501B689CBB4"]
 			id: "40F59530878402FD"
 			tasks: [
 				{
@@ -1402,7 +1261,6 @@
 			x: -4.5d
 			y: 7.0d
 			description: ["The Copper Furnace use 180 ticks to smelt something."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "22D82B3883A6253B"
 			tasks: [{
 				id: "7409C942F0FD8DE6"
@@ -1594,7 +1452,6 @@
 			x: -6.0d
 			y: -2.5d
 			description: ["The copper Barrel has 45 slots."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "7C718429183B07A0"
 			tasks: [{
 				id: "48620BE45B6E113A"
@@ -1736,7 +1593,6 @@
 				"This is the tier 1 jetpack from the vanilla collection."
 				"Can store 80K RF and use 32RF/t"
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "1B03D6AA02783EDE"
 			tasks: [{
 				id: "31E50445D8CDAC9D"
@@ -1816,7 +1672,6 @@
 				"This is the tier 1 jetpack from the Thermal collection."
 				"Can store 80K RF and use 32RF/t"
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "5321A818F8ED9DAE"
 			tasks: [{
 				id: "11208C7CF4AB2A4F"
@@ -1916,7 +1771,6 @@
 				"This is the tier 1 jetpack from the Mekanism collection."
 				"Can store 80K RF and use 32RF/t"
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "6D009211960BBE06"
 			tasks: [{
 				id: "2E2AFEDE6BF729EE"
@@ -1996,7 +1850,6 @@
 				"This is the tier 1 jetpack from the immersive collection."
 				"Can store 80k RF and use 32RF/t"
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "3CAAF135CA97DA60"
 			tasks: [{
 				id: "0097516F5EB0A1DA"
@@ -2053,37 +1906,12 @@
 			}]
 		}
 		{
-			title: "The Undergarden"
-			x: 10.0d
-			y: 7.0d
-			description: ["To enter the Undergarden, just make a stone brick portal and right click with this catalyst."]
-			dependencies: ["1F534501B689CBB4"]
-			id: "5B83DDDBFDC5E30F"
-			tasks: [{
-				id: "6D1FE535AA553B47"
-				type: "item"
-				item: {
-					id: "undergarden:catalyst"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "0F1C61741F0EF855"
-				type: "loot"
-				table_id: 6279604713272709768L
-			}]
-		}
-		{
 			x: 4.0d
 			y: 0.5d
 			description: [
 				"This item allows you to accelerate the rate at which blocks tick."
 				"It passively collects time while in your inventory which you can consume by right clicking a block with it."
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "6057A24539A10D96"
 			tasks: [{
 				id: "577BA119013ACE9E"
@@ -2106,7 +1934,6 @@
 			x: 4.5d
 			y: 3.5d
 			description: ["The Click Machine is simply a Click machine, it can left and right click with or not an item."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "60ACB358EDFC04DD"
 			tasks: [{
 				id: "21A17DF51F4B22BA"
@@ -2124,14 +1951,8 @@
 			x: -2.5d
 			y: 9.0d
 			description: ["With the Slime Boots and the Slime Sling you can bounce everywhere and adventure more easily."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "7B68A4BBD3A133C3"
 			tasks: [
-				{
-					id: "06FADB711667FF09"
-					type: "item"
-					item: "tconstruct:earth_slime_boots"
-				}
 				{
 					id: "36D34F90EC5DFD65"
 					type: "item"
@@ -2140,6 +1961,38 @@
 						Count: 1b
 						tag: {
 							Damage: 0
+						}
+					}
+				}
+				{
+					id: "74DD78325CEA1B55"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_boots"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 546.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:bouncy"
+									level: 1s
+								}
+								{
+									name: "tconstruct:leaping"
+									level: 1s
+								}
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
 						}
 					}
 				}
@@ -2166,7 +2019,6 @@
 				"The Part Chest is simply a chest who you can store your part."
 				"A Crafting Station is basically a Crafting Table but when you put an item in it, you can leave and your item is store in the Station."
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "06F4B11EE74A567E"
 			tasks: [
 				{
@@ -2217,10 +2069,7 @@
 				"To begin in Tinker Construct, you need to build a tiny smeltery with these two blocs."
 				"Just put your Melter on top of your Heater."
 			]
-			dependencies: [
-				"1F534501B689CBB4"
-				"06F4B11EE74A567E"
-			]
+			dependencies: ["06F4B11EE74A567E"]
 			id: "119491CEE2704BF3"
 			tasks: [
 				{
@@ -2252,10 +2101,7 @@
 				"With a Seared Duct you can filter what you want to extract."
 				"You can make any size you want for your smeltery. From a 1x1 to max 14x14."
 			]
-			dependencies: [
-				"1F534501B689CBB4"
-				"661C0BD618AE4EDD"
-			]
+			dependencies: ["661C0BD618AE4EDD"]
 			id: "68A18606530D5376"
 			tasks: [
 				{
@@ -2301,10 +2147,7 @@
 			x: 0.5d
 			y: 9.0d
 			description: ["To extract the melted stuff you have made in your tiny smeltery, you need a faucet and at least a Casting Basin."]
-			dependencies: [
-				"1F534501B689CBB4"
-				"119491CEE2704BF3"
-			]
+			dependencies: ["119491CEE2704BF3"]
 			id: "661C0BD618AE4EDD"
 			tasks: [
 				{
@@ -2369,7 +2212,6 @@
 				""
 				"The portals work cross-dimension, and you can change the color of it with a simple dye."
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "39E4867C31AF291C"
 			tasks: [
 				{
@@ -2433,7 +2275,6 @@
 				"You can dye your backpack the same way you can dye a leather armor."
 				"You can also put your backpack on the ground by shift clicking on the ground with your backpack in your hand."
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "45A6A422D4EBC8E1"
 			tasks: [{
 				id: "502E2172482F03DA"
@@ -2519,7 +2360,6 @@
 			x: 2.0d
 			y: 10.0d
 			description: ["This is your base to make upgrade with your backpack."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "3CF5229F9A3EFD84"
 			tasks: [{
 				id: "7769A41C930207DB"
@@ -2537,7 +2377,6 @@
 			x: 1.5d
 			y: -2.5d
 			description: ["Just a simple item pipe."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "776FADAE064A70D8"
 			tasks: [{
 				id: "7A30469CD12808A2"
@@ -2556,7 +2395,6 @@
 			x: 2.5d
 			y: -2.5d
 			description: ["Just a simple fluid pipe."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "35DB68974ECE2BA0"
 			tasks: [{
 				id: "57E12B38ABDB85EC"
@@ -2575,7 +2413,6 @@
 			x: 3.5d
 			y: -2.5d
 			description: ["Just a simple gas pipe."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "60DAC0904D75D52E"
 			tasks: [{
 				id: "550520C25F089119"
@@ -2594,7 +2431,6 @@
 			x: 4.5d
 			y: -2.5d
 			description: ["Just a simple energy pipe."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "4FB644D389A2E952"
 			tasks: [{
 				id: "61FAFACCE261CD32"
@@ -2648,7 +2484,6 @@
 				"The Advanced upgrade give you, plus, filter."
 				"The Ultimate upgrade give you, plus, insane speed."
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "1A131060D0DAE21F"
 			tasks: [
 				{
@@ -2688,7 +2523,6 @@
 			x: 1.5d
 			y: 3.5d
 			description: ["Modular Router is very useful to transfer items, fluids, energy wirelessly with upgrade and modules"]
-			dependencies: ["1F534501B689CBB4"]
 			id: "5FE1C61BBBD97E2C"
 			tasks: [{
 				id: "37B6E1F212FFF2AF"
@@ -2817,7 +2651,6 @@
 				"With an entangled block you can bind almost any block."
 				"For example you can bind a chest to an entangled block and from it you can import and export items."
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "31D64E7FE9AFD245"
 			tasks: [
 				{
@@ -2858,7 +2691,6 @@
 				""
 				"Right click with your DNA Sampler on Mob Cage to start farm their loot, you can regrab the ADN with your sampler by simply right click again."
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "4E6C11F47AFDB1AE"
 			tasks: [
 				{
@@ -2882,7 +2714,6 @@
 			x: 2.5d
 			y: 1.5d
 			description: ["The Netherite DNA Sampler is used for boss, the Basic is for most of passive mobs."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "4B45ACC1B04473BE"
 			tasks: [
 				{
@@ -2917,7 +2748,6 @@
 				"The Lightning upgrade is used, for example, farm Dragon Skull from Ice and Fire"
 				"The Arrow upgrade is used, for example, to farm Music Disc from Creeper."
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "161171A213DB96CF"
 			tasks: [
 				{
@@ -2950,7 +2780,6 @@
 				"Chipped Bench is a great mod for builders."
 				"They function like a stonecutter."
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "74F9FABDA2B6A809"
 			tasks: [
 				{
@@ -3028,7 +2857,6 @@
 			x: -5.5d
 			y: 3.0d
 			description: ["Framed Drawers are basically Drawers who can be customized."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "3F779A837556DDCB"
 			tasks: [
 				{
@@ -3109,43 +2937,10 @@
 			}]
 		}
 		{
-			title: "Lost City"
-			x: 12.5d
-			y: 7.0d
-			description: ["To go to Lost City, place any bed on top of two \"diamond blocks\" and surround your bed with skeleton skulls."]
-			dependencies: ["1F534501B689CBB4"]
-			id: "5590521BEF0A3538"
-			tasks: [
-				{
-					id: "6BB262C6F30CC6F0"
-					type: "item"
-					item: "rftoolsdim:dimensional_blank_block"
-					count: 2L
-				}
-				{
-					id: "22B69242E29D8B39"
-					type: "item"
-					item: "minecraft:white_bed"
-				}
-				{
-					id: "59B84478E53F2100"
-					type: "item"
-					item: "minecraft:skeleton_skull"
-					count: 6L
-				}
-			]
-			rewards: [{
-				id: "1609B478E2B2C77D"
-				type: "loot"
-				table_id: 6279604713272709768L
-			}]
-		}
-		{
 			title: "Chisel"
 			x: 5.5d
 			y: 1.5d
 			description: ["Classic Chisel, You can have multiple cool blocks with it !"]
-			dependencies: ["1F534501B689CBB4"]
 			id: "14E9ADD65A0E2B28"
 			tasks: [
 				{
@@ -3198,7 +2993,6 @@
 			x: 6.0d
 			y: 0.5d
 			description: ["The Nature's Compass can help you find a specific biome you want."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "071FABFA49FA346D"
 			tasks: [{
 				id: "3F549420E9D1AFB1"
@@ -3231,7 +3025,6 @@
 			x: 5.0d
 			y: 2.5d
 			description: ["Like his name said, it's a simple chunk loader."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "5C171B8D08A886E2"
 			tasks: [{
 				id: "15B54FBF75EE644A"
@@ -3252,7 +3045,6 @@
 				"In this pack teleportations are free, even between dimension."
 				"Warp Stone is a teleportation device who can teleport you to other waystones."
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "6755F5992A1052AA"
 			tasks: [
 				{
@@ -3288,7 +3080,6 @@
 				""
 				"You can, also, right-click with a glowstone to emit light with your framed block."
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "5711EED5F41255C2"
 			tasks: [
 				{
@@ -3319,7 +3110,6 @@
 			x: 7.0d
 			y: 0.5d
 			description: ["You can store all your enchanted book in this Enchantment Library."]
-			dependencies: ["1F534501B689CBB4"]
 			id: "30929A39AAE546F9"
 			tasks: [{
 				id: "395D8E341C58D2FF"
@@ -3342,7 +3132,6 @@
 				"{image:kubejs:textures/ftbquests/begin/workingstation.png width:150 height:100 align:1}"
 				"You can find those Working Station by simply tape \"#station\" in JEI to find all the working station available."
 			]
-			dependencies: ["1F534501B689CBB4"]
 			id: "0EE55FBEF89F5378"
 			tasks: [
 				{

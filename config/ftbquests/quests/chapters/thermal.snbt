@@ -1051,29 +1051,6 @@
 			}]
 		}
 		{
-			title: "How do I begin Thermal Series ?"
-			icon: "create:brass_hand"
-			x: 0.0d
-			y: -4.5d
-			shape: "circle"
-			description: [
-				"To begin Thermal Series, you need to get your first Mekanism machine to craft Field Projector from Compact Crafting."
-				"Then, build the space needed to miniaturize your first machine frame of Thermal."
-				"{image:kubejs:textures/ftbquests/begin/thermal.png width:150 height:100 align:1}"
-			]
-			dependencies: ["48C5B2DDCFAEBA37"]
-			id: "18B610CF75996B85"
-			tasks: [{
-				id: "5D6B62B8D1E981B4"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "0DE24A661CF57F88"
-				type: "item"
-				item: "mob_grinding_utils:solid_xp_baby"
-			}]
-		}
-		{
 			x: 1.5d
 			y: 3.0d
 			dependencies: ["48C5B2DDCFAEBA37"]

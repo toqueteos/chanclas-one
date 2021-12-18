@@ -6,6 +6,32 @@
 	title: "Dimensions"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.0d
+			y: 2.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/dimdung.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/undergarden.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			icon: "minecraft:grass_block"
@@ -20,7 +46,7 @@
 		}
 		{
 			icon: "minecraft:nether_gold_ore"
-			x: 1.5d
+			x: -1.5d
 			y: 0.0d
 			dependencies: ["0EC01DC97C890478"]
 			dependency_requirement: "one_completed"
@@ -29,6 +55,173 @@
 				id: "190FE99D20AE0247"
 				type: "dimension"
 				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			icon: "sonicraft:classic_sonic_plushie"
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["0EC01DC97C890478"]
+			id: "0EF72AFE05C666E7"
+			tasks: [{
+				id: "2DF382D4D237497D"
+				type: "dimension"
+				dimension: "sonicraft:mobius"
+			}]
+		}
+		{
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["0EC01DC97C890478"]
+			id: "49D4C056797A4024"
+			tasks: [{
+				id: "50AA84C7DE864D1D"
+				type: "dimension"
+				dimension: "twilightforest:twilightforest"
+			}]
+		}
+		{
+			icon: "minecraft:end_crystal"
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["4DA830165608E9D1"]
+			id: "141442547D7DAC3E"
+			tasks: [{
+				id: "207FC6C8E7E22C45"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			icon: "rats:chunky_cheese_token"
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["0EC01DC97C890478"]
+			id: "2D8E9ED2080AF35F"
+			tasks: [{
+				id: "681DE5A2B9E785EA"
+				type: "dimension"
+				dimension: "rats:ratlantis"
+			}]
+		}
+		{
+			icon: "mythicbotany:alfsteel_pylon"
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["0EC01DC97C890478"]
+			id: "2615AC0542F288EA"
+			tasks: [{
+				id: "579DD9E77B70170A"
+				type: "dimension"
+				dimension: "mythicbotany:alfheim"
+			}]
+		}
+		{
+			title: "Dimensional Dungeons"
+			icon: "dimdungeons:block_key_charger"
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"A blank key cannot be used to enter a dungeon. A newly crafted key must first be used in an 'activation ritual' which will inscribe the name and location of a randomly generated dungeon onto the key."
+				"This action will require you to bring the key in the Stronghold and use it on the top of an End Portal Frame."
+			]
+			dependencies: ["5B83DDDBFDC5E30F"]
+			id: "247308E0062867EB"
+			tasks: [
+				{
+					id: "4FCC35A18296D09D"
+					type: "item"
+					item: "dimdungeons:item_portal_key"
+				}
+				{
+					id: "0AD721BD7954EA13"
+					type: "item"
+					item: "dimdungeons:block_gilded_portal"
+					count: 2L
+				}
+				{
+					id: "6E4DAB7B74107FF3"
+					type: "item"
+					item: "dimdungeons:block_portal_keyhole"
+				}
+			]
+			rewards: [{
+				id: "6E47EDC4E7BE6A94"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "dimdungeons:guide_book"
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Diggy Diggy Hole!"
+			description: ["Eternal day and no caves."]
+			dependencies: ["0EC01DC97C890478"]
+			id: "60E5765FE4FDFC45"
+			tasks: [{
+				id: "3769B231A01C3EA4"
+				type: "item"
+				item: "jamd:mine_portal_block"
+			}]
+			rewards: [{
+				id: "421DF2B03793D674"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "The Undergarden"
+			x: 3.5d
+			y: 0.0d
+			description: ["To enter the Undergarden, just make a stone brick portal and right click with this catalyst."]
+			dependencies: ["0EC01DC97C890478"]
+			id: "5B83DDDBFDC5E30F"
+			tasks: [{
+				id: "6D1FE535AA553B47"
+				type: "item"
+				item: {
+					id: "undergarden:catalyst"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F1C61741F0EF855"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			description: ["Eternal day in the void."]
+			dependencies: ["0EC01DC97C890478"]
+			id: "3727827CF1E483EC"
+			tasks: [{
+				id: "4541C1F47A65BDE8"
+				type: "item"
+				item: "javd:portal_block"
+			}]
+			rewards: [{
+				id: "266FCABD3C361E22"
+				type: "loot"
+				table_id: 6279604713272709768L
 			}]
 		}
 	]

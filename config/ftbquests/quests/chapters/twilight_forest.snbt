@@ -549,7 +549,6 @@
 		{
 			x: -1.5d
 			y: -1.0d
-			dependencies: ["116CF2A04508EE65"]
 			id: "044717B20F69F9CA"
 			tasks: [
 				{
@@ -615,12 +614,7 @@
 			x: 0.0d
 			y: -2.0d
 			shape: "circle"
-			description: [
-				"In this pack you can't go in the Twilight normally."
-				"You need to open the portal in Ratlantis and toss a Psionic Rat Brain in the pool of water."
-				"{image:kubejs:textures/ftbquests/begin/twilight.png width:150 height:100 align:1}"
-			]
-			dependencies: ["116CF2A04508EE65"]
+			description: ["{image:kubejs:textures/ftbquests/begin/twilight.png width:150 height:100 align:1}"]
 			id: "433DEDE2CE191FF2"
 			tasks: [{
 				id: "364054FDF73CE3CD"

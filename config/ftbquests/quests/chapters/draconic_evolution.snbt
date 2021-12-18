@@ -36,7 +36,6 @@
 		{
 			x: 6.5d
 			y: -6.0d
-			dependencies: ["1AB445A949FEB6D5"]
 			id: "098767A5FC13619E"
 			tasks: [{
 				id: "04B061C5344B6139"
@@ -190,7 +189,6 @@
 		{
 			x: 2.5d
 			y: -9.5d
-			dependencies: ["1AB445A949FEB6D5"]
 			id: "57F807CF8460DB9D"
 			tasks: [{
 				id: "77DCEF80AC5E4AD9"
@@ -314,7 +312,6 @@
 		{
 			x: -1.0d
 			y: -6.0d
-			dependencies: ["1AB445A949FEB6D5"]
 			id: "5FEF1CE17B8A57E7"
 			tasks: [{
 				id: "514399975FBD7210"
@@ -346,7 +343,6 @@
 		{
 			x: 4.5d
 			y: -6.75d
-			dependencies: ["1AB445A949FEB6D5"]
 			size: 1.5d
 			id: "7E30C51FE4413E5D"
 			tasks: [
@@ -512,7 +508,6 @@
 		{
 			x: 11.0d
 			y: -6.0d
-			dependencies: ["1AB445A949FEB6D5"]
 			id: "3809491C3158398B"
 			tasks: [{
 				id: "50E6D34F1BE445E5"
@@ -529,7 +524,6 @@
 		{
 			x: 11.5d
 			y: -5.0d
-			dependencies: ["1AB445A949FEB6D5"]
 			id: "6FA801D3846D4F53"
 			tasks: [{
 				id: "40955CB3C058F2F9"
@@ -1829,7 +1823,6 @@
 		{
 			x: -1.0d
 			y: -2.5d
-			dependencies: ["1AB445A949FEB6D5"]
 			id: "410C369B33532099"
 			tasks: [{
 				id: "4EC0CA0AC1157412"
@@ -2031,16 +2024,11 @@
 			y: -11.5d
 			shape: "circle"
 			description: [
-				"To get your first Draconium ingot, you need to process it in a Sequence Assembly from Create."
-				"{image:kubejs:textures/ftbquests/begin/draconium.png width:150 height:100 align:1}"
-				"{image:kubejs:textures/ftbquests/begin/draconium2.png width:150 height:100 align:1}"
-				"Design by Rockit14 : https://youtu.be/K0L3KCZd_vg"
+				"To get your first Draconium ingot, you need to get Draconium dust from The End."
 				""
-				"Throw a Manyullyn Ingot on a Mechanical Belt with three Deployer above to apply the ingredient needed. You can place multiple Deployer to make the craft easy, or you can make a loop to pass though your ingot four times !"
 				""
-				"I suggestion you to craft only 4 ingots to create next your Draconium seed and farm Draconium after that."
+				"Get ready to fight the dragon!"
 			]
-			dependencies: ["1AB445A949FEB6D5"]
 			id: "0DA122CF5BC7777A"
 			tasks: [{
 				id: "0164EB4308170319"

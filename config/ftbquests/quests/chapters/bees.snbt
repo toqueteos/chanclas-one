@@ -1,11 +1,11 @@
 {
 	id: "0000000000000002"
 	group: "26830001F0816168"
-	order_index: 2
+	order_index: 0
 	filename: "bees"
 	title: "Bees"
 	icon: "minecraft:honeycomb"
-	subtitle: ["BFFFT"]
+	subtitle: ["Lots of bee puns ahead"]
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	images: [

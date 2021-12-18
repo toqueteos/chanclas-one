@@ -1783,28 +1783,5 @@
 				count: 16
 			}]
 		}
-		{
-			title: "How do I begin Powah ?"
-			icon: "create:brass_hand"
-			x: 0.0d
-			y: -3.5d
-			shape: "circle"
-			description: [
-				"To begin with Powah you need to begin Botania and PSI first."
-				"Every component need Dielectric Past and to get those just toss Ebony substance in a Mana Pool."
-				"{image:kubejs:textures/ftbquests/begin/powah.png width:150 height:100 align:1}"
-			]
-			dependencies: ["00000000000009BD"]
-			id: "47EC5BAD3C9F377B"
-			tasks: [{
-				id: "59E78F4F326BA93C"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "044D80A7011016AA"
-				type: "item"
-				item: "mob_grinding_utils:solid_xp_baby"
-			}]
-		}
 	]
 }

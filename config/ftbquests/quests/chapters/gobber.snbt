@@ -1116,7 +1116,6 @@
 			x: 3.5d
 			y: -8.5d
 			shape: "hexagon"
-			dependencies: ["0000000000000618"]
 			id: "5052D69F0063307C"
 			tasks: [{
 				id: "388EEB58C6D35FB3"
@@ -1159,31 +1158,6 @@
 				id: "23ED6BBDA9BE58E9"
 				type: "item"
 				item: "gobber2:gobber2_seed_end"
-			}]
-		}
-		{
-			title: "How do I begin Gobber ?"
-			icon: "create:brass_hand"
-			x: 2.5d
-			y: -7.0d
-			shape: "circle"
-			description: [
-				"First of ALL ! There is NO ore from this mod who can be found."
-				"Instead, there is three craft to get seed and farm materials from Gobber."
-				"{image:kubejs:textures/ftbquests/begin/gobbercraft.png width:150 height:100 align:1}"
-				"At the end of Gobber you can obtain a powerful gear that negate void damage and give you flight."
-				"Be prepare because you're going to need to play with a LOT of mods !"
-			]
-			dependencies: ["0000000000000618"]
-			id: "0A92956451853934"
-			tasks: [{
-				id: "1712ABD92E42018D"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "4D7B2E32F604D475"
-				type: "item"
-				item: "mob_grinding_utils:solid_xp_baby"
 			}]
 		}
 	]

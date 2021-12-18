@@ -1,7 +1,7 @@
 {
 	id: "00000000000005DE"
 	group: "6554A646FFCDEA0B"
-	order_index: 4
+	order_index: 5
 	filename: "forbidden__arcanus"
 	title: "Forbidden and Arcanus"
 	icon: "forbidden_arcanus:dark_soul"
@@ -183,24 +183,6 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "076E177B524FE10A"
-					type: "item"
-					item: {
-						id: "forbidden_arcanus:bone_sword"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "36E0BAEE989B8A07"
-					type: "item"
-					item: "forbidden_arcanus:skull"
-				}
-			]
 		}
 		{
 			title: "Edelwood Planks"
@@ -317,7 +299,6 @@
 		{
 			x: 6.5d
 			y: 3.5d
-			dependencies: ["00000000000005DA"]
 			id: "00000000000005FE"
 			tasks: [{
 				id: "00000000000005FF"
@@ -388,7 +369,6 @@
 		{
 			x: 6.5d
 			y: -0.5d
-			dependencies: ["00000000000005DA"]
 			id: "0000000000000604"
 			tasks: [{
 				id: "0000000000000605"
@@ -423,7 +403,6 @@
 		{
 			x: 8.0d
 			y: 1.0d
-			dependencies: ["00000000000005DA"]
 			size: 2.0d
 			id: "000000000000060A"
 			tasks: [{
@@ -458,7 +437,6 @@
 		{
 			x: 10.5d
 			y: 3.0d
-			dependencies: ["00000000000005DA"]
 			id: "000000000000060E"
 			tasks: [{
 				id: "000000000000060F"
@@ -474,7 +452,6 @@
 		{
 			x: 10.5d
 			y: 1.5d
-			dependencies: ["00000000000005DA"]
 			id: "0000000000000610"
 			tasks: [{
 				id: "0000000000000611"
@@ -545,7 +522,6 @@
 			title: "Obsidian Ingot"
 			x: 9.5d
 			y: 0.5d
-			dependencies: ["00000000000005DA"]
 			id: "7DEB614236ACD216"
 			tasks: [{
 				id: "392D473A3E9DA194"
@@ -681,7 +657,6 @@
 			title: "Cloth"
 			x: 10.5d
 			y: 4.0d
-			dependencies: ["00000000000005DA"]
 			id: "480EB40B0567EE82"
 			tasks: [{
 				id: "01BC42D8F6255F32"
@@ -704,9 +679,8 @@
 			shape: "circle"
 			description: [
 				"To begin, find Arcane Crystal in caves. It's pretty used in any craft."
-				"The Arcane Gold from this mod has been replaced by the Arcane Gold from Eidolon, so you can get your Arcane Gold in a cauldron from Eidolon."
+				"The Arcane Gold from this mod is compatible the one from Eidolon."
 			]
-			dependencies: ["00000000000005DA"]
 			id: "0E2B7A7B0F382087"
 			tasks: [{
 				id: "142222965C0A18ED"

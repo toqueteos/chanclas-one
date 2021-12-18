@@ -1,7 +1,7 @@
 {
 	id: "0000000000000131"
 	group: "26830001F0816168"
-	order_index: 3
+	order_index: 4
 	filename: "mystical_agriculture"
 	title: "Mystical Agriculture"
 	icon: { id: "mysticalagriculture:inferium_essence", Count: 64b }
@@ -3812,31 +3812,6 @@
 				type: "item"
 				item: "mysticalagriculture:draconium_essence"
 				count: 8
-			}]
-		}
-		{
-			icon: "create:brass_hand"
-			x: -0.5d
-			y: -9.5d
-			shape: "circle"
-			description: [
-				"To begin to work with Mystical Agriculture, you're going to need several things."
-				"First, begin Powah to get your Energized Steel, needed to craft Infusion Altar and Pedestal."
-				"Second, You need some Mechanical Crafters from Create to craft those infusions Altar and Pedestal."
-				"{image:kubejs:textures/ftbquests/begin/mystical.png width:150 height:100 align:1}"
-				"Finaly you're going to need something to get Prosperity Ore. From Mining Laser, from Ore miner or Orchid."
-			]
-			dependencies: ["000000000000012D"]
-			id: "76FA61DEA07AE01A"
-			tasks: [{
-				id: "51B54285653ABBCB"
-				type: "checkmark"
-				title: "How to begin Mystical Agriculture ?"
-			}]
-			rewards: [{
-				id: "66A1AA745CAD06C0"
-				type: "item"
-				item: "mob_grinding_utils:solid_xp_baby"
 			}]
 		}
 		{

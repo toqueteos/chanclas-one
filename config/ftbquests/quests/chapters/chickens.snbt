@@ -1,0 +1,79 @@
+{
+	id: "472A38AD4D1F2BFF"
+	group: "26830001F0816168"
+	order_index: 1
+	filename: "chickens"
+	title: "Chickens"
+	icon: {
+		id: "chickens:chicken"
+		Count: 1b
+		tag: { }
+	}
+	subtitle: ["Chapter is WIP"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "1C7D0DB2F38B0FA8"
+			tasks: [{
+				id: "2A3B8B8A8A4002A6"
+				type: "item"
+				item: {
+					id: "chickens:catcher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "13191D1971F8A942"
+			tasks: [{
+				id: "66E8513E7D769487"
+				type: "item"
+				item: {
+					id: "chickens:analyzer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "28B5341EB9AF8260"
+			tasks: [{
+				id: "62B48D6237C3C120"
+				type: "item"
+				item: "chickens:roost"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "6FE48A6674808773"
+			tasks: [{
+				id: "43AE56156DD02EC6"
+				type: "item"
+				item: "chickens:breeder"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "792C12F1832A530D"
+			tasks: [{
+				id: "02A552B4008F8C18"
+				type: "item"
+				item: "chickens:collector"
+			}]
+		}
+	]
+}

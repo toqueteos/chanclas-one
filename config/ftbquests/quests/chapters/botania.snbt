@@ -1,7 +1,7 @@
 {
 	id: "0000000000000371"
 	group: "6554A646FFCDEA0B"
-	order_index: 1
+	order_index: 2
 	filename: "botania"
 	title: "Botania"
 	icon: "botania:natura_pylon"
@@ -2262,29 +2262,6 @@
 				type: "item"
 				item: "thermal:lightning_grenade"
 				count: 16
-			}]
-		}
-		{
-			title: "How do I begin Botania ?"
-			icon: "create:brass_hand"
-			x: 7.0d
-			y: -12.5d
-			shape: "circle"
-			description: [
-				"To begin with botania in this pack you need two things."
-				"To get Livingwood you have to begin a little with Astral and get Infused Wood."
-				"And to get Livingrock you need to gather Deapthrock in The Undergarden."
-			]
-			dependencies: ["000000000000036D"]
-			id: "5178F1461D6138EC"
-			tasks: [{
-				id: "2335C1F2FA0D2792"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "024C100A8E9A8D5B"
-				type: "item"
-				item: "mob_grinding_utils:solid_xp_baby"
 			}]
 		}
 	]

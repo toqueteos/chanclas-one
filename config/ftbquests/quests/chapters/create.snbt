@@ -13,7 +13,6 @@
 			x: 8.5d
 			y: -4.5d
 			description: ["A Mechanical Belt is a mechanical component that conveys rotation and moves items and entities."]
-			dependencies: ["00000000000004AE"]
 			id: "0000000000000450"
 			tasks: [{
 				id: "0000000000000451"
@@ -88,7 +87,6 @@
 			x: 4.0d
 			y: -5.0d
 			description: ["Note: There is a built-in guide for Create. To access it, you need to hold a key on the wanted item in JEI. The animated guide will then appear."]
-			dependencies: ["00000000000004AE"]
 			size: 2.0d
 			id: "0000000000000458"
 			tasks: [{
@@ -131,7 +129,6 @@
 				"Filters are used to sort multiple different items through one output."
 				"Filters can only be used on machines that have a filter slot, such as Brass Funnels, Brass Tunnels, and Basins."
 			]
-			dependencies: ["00000000000004AE"]
 			id: "000000000000045C"
 			tasks: [
 				{
@@ -208,7 +205,6 @@
 				""
 				"The Toolbox can hold up to 256 items per slot and up to 8 different types of items."
 			]
-			dependencies: ["00000000000004AE"]
 			id: "0000000000000462"
 			tasks: [
 				{
@@ -265,7 +261,6 @@
 				""
 				"The Brass Tunnel is a machine that can only be placed on Mechanical Belts. It can sort items that pass through."
 			]
-			dependencies: ["00000000000004AE"]
 			id: "0000000000000467"
 			tasks: [
 				{
@@ -290,7 +285,6 @@
 			x: 4.0d
 			y: -8.5d
 			description: ["The Funnel is used to extract or insert materials into inventories."]
-			dependencies: ["00000000000004AE"]
 			id: "000000000000046A"
 			tasks: [
 				{
@@ -353,7 +347,6 @@
 				""
 				"The Hose Pulley lets down a hose that can drain bodies of liquids."
 			]
-			dependencies: ["00000000000004AE"]
 			id: "0000000000000471"
 			tasks: [{
 				id: "0000000000000472"
@@ -374,7 +367,6 @@
 				"The Fluid Tank is a fluid storage mechanism that can store up to 8 buckets of fluid per block."
 				"Fluid tanks will also merge with adjacent tanks, up to 3x32x3, allowing to store up to 2,304 buckets of any fluid."
 			]
-			dependencies: ["00000000000004AE"]
 			id: "0000000000000473"
 			tasks: [{
 				id: "0000000000000474"
@@ -394,7 +386,6 @@
 				"Fluid Pipes are blocks used to transport and deal with fluids."
 				"Mechanical Pump is used to extract fluid from a fluid pipe or a fluid tank."
 			]
-			dependencies: ["00000000000004AE"]
 			id: "0000000000000475"
 			tasks: [
 				{
@@ -422,7 +413,6 @@
 				"The Linear Chassis is one method of connecting up moving structures or minecart contraptions."
 				"The Radial Chassis is a block used to connect Contraptions."
 			]
-			dependencies: ["00000000000004AE"]
 			id: "0000000000000479"
 			tasks: [
 				{
@@ -460,7 +450,6 @@
 			x: 2.5d
 			y: -9.0d
 			description: ["The Piston Extension Pole is an extension for the Mechanical Piston."]
-			dependencies: ["00000000000004AE"]
 			id: "000000000000047D"
 			tasks: [{
 				id: "000000000000047E"
@@ -555,7 +544,6 @@
 			x: 1.0d
 			y: -6.5d
 			description: ["Rose Quartz is a material used to create Polished Rose Quartz."]
-			dependencies: ["00000000000004AE"]
 			id: "0000000000000487"
 			tasks: [{
 				id: "0000000000000488"
@@ -652,7 +640,6 @@
 			x: 1.0d
 			y: -3.5d
 			description: ["Sand Paper is a tool used solely to create Polished Rose Quartz."]
-			dependencies: ["00000000000004AE"]
 			id: "0000000000000490"
 			tasks: [{
 				id: "0000000000000491"
@@ -705,7 +692,6 @@
 				"Any other block can also be attached with Super Glue, though it will not yield any benefit. "
 				"This will create a Windmill."
 			]
-			dependencies: ["00000000000004AE"]
 			id: "0000000000000494"
 			tasks: [{
 				id: "0000000000000495"
@@ -728,7 +714,6 @@
 				""
 				"The Large Cogwheel is a larger variant of the cogwheel that can relay rotation around corners and power Rotation Speed Controllers."
 			]
-			dependencies: ["00000000000004AE"]
 			id: "0000000000000496"
 			tasks: [
 				{
@@ -832,7 +817,6 @@
 			x: 6.5d
 			y: -3.0d
 			description: ["The Hand Crank generates a small amount of Rotational Force through player interaction."]
-			dependencies: ["00000000000004AE"]
 			id: "00000000000004A4"
 			tasks: [{
 				id: "00000000000004A5"
@@ -1020,7 +1004,6 @@
 				"Super Glue holds structures in Contraptions together, like Slimeballs."
 				"The main difference between Super Glue and Slimeballs is that Super Glue does not need to use the wooden face of a Linear Chassis block to adhere blocks to each other."
 			]
-			dependencies: ["00000000000004AE"]
 			id: "1649CACDA9411210"
 			tasks: [{
 				id: "4CF58B688D370BDB"
@@ -1052,7 +1035,6 @@
 				"{image:kubejs:textures/ftbquests/begin/create.png width:150 height:100 align:1}"
 				"To learn how to play with create, you have an integrated tutorial too awesome !  Check an item of Create in JEI and tap on z key (default)."
 			]
-			dependencies: ["00000000000004AE"]
 			id: "37DD418638348907"
 			tasks: [{
 				id: "1F11527C7D1A515F"

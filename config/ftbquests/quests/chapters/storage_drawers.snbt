@@ -1,0 +1,178 @@
+{
+	id: "158BCBD9B23AD99A"
+	group: "5425C6996CF03011"
+	order_index: 1
+	filename: "storage_drawers"
+	title: "Storage Drawers"
+	icon: "storagedrawers:oak_full_drawers_1"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: -2.5d
+			description: ["Drawers allow to store multiple stacks of the same item in one block."]
+			size: 2.0d
+			id: "64C4DDFA0EC26558"
+			tasks: [{
+				id: "13885DC84FE2ABD8"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+			rewards: [
+				{
+					id: "397634C38AC22BD8"
+					type: "item"
+					item: "storagedrawers:oak_full_drawers_1"
+				}
+				{
+					id: "4485F9EA6F3BF478"
+					type: "item"
+					item: "storagedrawers:oak_full_drawers_2"
+				}
+				{
+					id: "250E1ECBC503D656"
+					type: "item"
+					item: "storagedrawers:oak_full_drawers_4"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			description: [
+				"A Drawer Controller will search for any connected drawer within 12 blocks, and then expose all those drawers as a large combined inventory."
+				""
+				"Very convenient to use alongside an External Storage from Refined Storage."
+			]
+			dependencies: ["64C4DDFA0EC26558"]
+			id: "457F58474492D7C7"
+			tasks: [{
+				id: "76395A8B1226316A"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["64C4DDFA0EC26558"]
+			id: "10296158E4A7F574"
+			tasks: [{
+				id: "31B20BEBC6051BD8"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			dependencies: ["0F986446D503F938"]
+			id: "18C79B0D5F0B8692"
+			tasks: [{
+				id: "668143F46C51B693"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["18C79B0D5F0B8692"]
+			id: "2BE1632E2EED0C74"
+			tasks: [{
+				id: "30EDE792DE09D47D"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["2BE1632E2EED0C74"]
+			id: "607926CEAACE3177"
+			tasks: [{
+				id: "6BB0ACBCAFF9DFF6"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			dependencies: ["607926CEAACE3177"]
+			id: "44EC5106321CE193"
+			tasks: [{
+				id: "24F2B4A3878452AA"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			dependencies: ["44EC5106321CE193"]
+			id: "5BBA45FE6D0CF16E"
+			tasks: [{
+				id: "24F00ABDCDFFC947"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			dependencies: ["64C4DDFA0EC26558"]
+			id: "0F986446D503F938"
+			tasks: [{
+				id: "3E2E68A2F8AFDC4C"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			dependencies: ["0F986446D503F938"]
+			id: "7157D5E7A286A2CD"
+			tasks: [{
+				id: "1C94FB403FD2AA45"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["0F986446D503F938"]
+			id: "4F3DDDDDE8658949"
+			tasks: [{
+				id: "2C9D4E0B832E317C"
+				type: "item"
+				item: "storagedrawers:drawer_key"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["4F3DDDDDE8658949"]
+			id: "7D4F07A528EEEC34"
+			tasks: [{
+				id: "485923158427C94E"
+				type: "item"
+				item: "storagedrawers:quantify_key"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["457F58474492D7C7"]
+			id: "6CA4D921C56821A8"
+			tasks: [{
+				id: "0A978338949E3458"
+				type: "item"
+				item: "storagedrawers:controller_slave"
+			}]
+		}
+	]
+}

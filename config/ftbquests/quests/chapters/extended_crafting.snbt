@@ -648,24 +648,5 @@
 				item: "kubejs:quarkonium_block"
 			}]
 		}
-		{
-			title: "How do I begin Extended Crafting?"
-			icon: "create:brass_hand"
-			x: 0.0d
-			y: -3.0d
-			shape: "circle"
-			description: ["WIP: Explain how to get Black Iron."]
-			dependencies: ["28FAE67AF30700C8"]
-			id: "366A89D72C3624CE"
-			tasks: [{
-				id: "5146516F53D73173"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "7D59ECDBBBB6C170"
-				type: "item"
-				item: "mob_grinding_utils:solid_xp_baby"
-			}]
-		}
 	]
 }

@@ -1261,31 +1261,6 @@
 			}]
 		}
 		{
-			title: "How do I begin Industrial Foregoing ?"
-			icon: "create:brass_hand"
-			x: 4.5d
-			y: -5.5d
-			shape: "circle"
-			description: [
-				"To begin with Industrial Foregoing need to begin first with immersive engineering !"
-				"With your Metal Press, you need to put a Gear mold, obtainable with the engineer's workbench and the mold blueprint."
-				"{image:kubejs:textures/ftbquests/begin/gear.png width:150 height:100 align:1}"
-				"Then toss 4 ingots on your press to get a gear and craft your first machine Industrial Foregoing (Pity Machine Frame)."
-				"{image:kubejs:textures/ftbquests/begin/industrial.png width:150 height:100 align:1}"
-			]
-			dependencies: ["00000000000007CF"]
-			id: "7D19FE2E2992EF0B"
-			tasks: [{
-				id: "4AC390D7CEC3EA2F"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "769FE3E84CBCE50E"
-				type: "item"
-				item: "mob_grinding_utils:solid_xp_baby"
-			}]
-		}
-		{
 			title: "Cheap Plastic ?"
 			icon: "create:brass_hand"
 			x: 4.5d
